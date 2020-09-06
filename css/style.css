@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+ul,li { padding: 0; margin: 0; }
+.linksassignment { width: 300px; font-size: 0; }
+.linksassignment li { font-size: 12px; width: 100px; display: inline-block; }
+
 body {
   font-family: "Helvetica", sans-serif;
   font-size: 100%;
