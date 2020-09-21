@@ -1,42 +1,140 @@
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.wrapper {
+  display: flex;
+}
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  /* background: gray; */
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
 }
 
-ul,li { padding: 0; margin: 0; }
-.linksassignment { width: 300px; font-size: 0; }
-.linksassignment li { font-size: 12px; width: 100px; display: inline-block; }
+.links-assignment {
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+/* line-height: 117%; */
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
 
 body {
-  font-family: "Helvetica", sans-serif;
-  font-size: 100%;
-  line-height: 1.5;
-  font-weight: 400;
-
-  background-color: #ddd;
-  color: #333;
+  background-color: #E5E5E5;
 }
 
-/* main {
-  padding: 2rem;
-} */
 
 h1 {
-  font-size: 2.5em;
-  padding: 1em;
+  /* Major Studio 1 Fall 2020 */
+
+  position: relative;
+  top: 35%;
+  left: 5%;
+  
+  /* Heading-1 */
+  
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 97.2%;
+  /* or 58px */
+  
+  letter-spacing: -0.03em;
+  
+  /* Main Black */
+  
+  color: #181717;
 }
+
+
 
 h2 {
-  font-size: 1em;
-  padding-left: 2.5em;
+  /* Heading-2 */
+  position: relative;
+  width: 401px;
+  height: 70px;
+  left: 5%;
+  top: 40%;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+}
+
+.name-box {
+position: relative;
+width: 591px;
+height: 120px;
+left: 10%;
+top: 5%;
+
+/* Heading-2 */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+color: #606060;
 
 }
 
-
-p {
-  padding-left: 1em;
+#separator {
+position: absolute;
+left: 5%;
+top: 50%;
 }
 
-a {
-  color: #2d59ec;
+hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.project-title {
+font-family: DM Sans;;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+left: 5%;
+/* padding-top: 10%; */
+
+/* or 22px */
+
+letter-spacing: -0.02em;
+
+/* Main Black */
+
+color: #181717;
 }
