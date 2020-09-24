@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://transcription.si.edu/sites/all/themes/si_tsc/favicon.ico" type="image/vnd.microsoft.icon" />
+	<title>Viewing page 16 of 27 |  Smithsonian Digital Volunteers</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+	<link rel="apple-touch-icon" href="" />
+	<style type="text/css" media="all">
+@import url("https://transcription.si.edu/modules/system/system.base.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/system/system.messages.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/system/system.theme.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/date/date_api/date.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/field/theme/field.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/node/node.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/search/search.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/transcribr_site/transcribr_site.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/user/user.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/views/css/views.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/ctools/css/ctools.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/feedback_simple/feedback_simple.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/screen.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/grid_12_col.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/browse.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/project.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/transcription.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/freezeframe.js/build/css/freezeframe_styles.min.css?qh5bl6");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Ultra|Tauri&amp;qh5bl6" media="all" />
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/colorbox.css?qh5bl6");
+</style>
+	<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/jquery/3.4/jquery.min.js?v=3.4.1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/jquery-migrate/3/jquery-migrate.min.js?v=3"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery-extend-3.4.0.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/drupal.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.datepicker.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/json2.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/imagesloaded.pkgd.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/masonry.pkgd.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.jscroll.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.colorbox.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/scrollspy.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/freezeframe.js/src/js/freezeframe.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.cookie.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/main.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/openseadragon/openseadragon.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/jquery.ids.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/transcription-tools.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/google_analytics/googleanalytics.js?qh5bl6"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-41739514-1", {"cookieDomain":"auto"});ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"si_tsc","theme_token":"x9kfc7ikHomzGAtA9qclYJctRpXZmxpNBQemMuHmmsg","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/3.4\/jquery.min.js":1,"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/3\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/json2.js":1,"sites\/all\/themes\/si_tsc\/scripts\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/masonry.pkgd.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.jscroll.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.colorbox.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/scrollspy.js":1,"sites\/all\/themes\/si_tsc\/scripts\/freezeframe.js\/src\/js\/freezeframe.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.cookie.js":1,"sites\/all\/themes\/si_tsc\/scripts\/main.js":1,"sites\/all\/modules\/transcribr_site\/js\/openseadragon\/openseadragon.min.js":1,"sites\/all\/modules\/transcribr_site\/js\/jquery.ids.js":1,"sites\/all\/modules\/transcribr_site\/js\/transcription-tools.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/transcribr_featured\/transcribr_featured.css":1,"sites\/all\/modules\/transcribr_site\/transcribr_site.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/feedback_simple\/feedback_simple.css":1,"sites\/all\/themes\/si_tsc\/scripts\/screen.css":1,"sites\/all\/themes\/si_tsc\/scripts\/grid_12_col.css":1,"sites\/all\/themes\/si_tsc\/scripts\/browse.css":1,"sites\/all\/themes\/si_tsc\/scripts\/project.css":1,"sites\/all\/themes\/si_tsc\/scripts\/transcription.css":1,"sites\/all\/themes\/si_tsc\/scripts\/freezeframe.js\/build\/css\/freezeframe_styles.min.css":1,"sites\/all\/themes\/si_tsc\/css\/print.css":1,"\/\/fonts.googleapis.com\/css?family=Ultra|Tauri":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery-ui-1.9.2.custom.min.css":1,"sites\/all\/themes\/si_tsc\/scripts\/colorbox.css":1}},"transcribr_site":[],"transcribrSiteIds":{"buttonImageQueryString":"v=1.0","buttonPath":"\/sites\/all\/modules\/transcribr_site\/js\/buttons\/","idsDynamicUrl":"https:\/\/ids.si.edu\/ids\/dynamic"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-view page-view- page-view-7955 page-view-nmaahc-2015-97-42-016" >
+	<div id="skip-link">
+		<a href="#the-content" class="element-invisible element-focusable">Skip to main content</a>
+	</div>
+		<div id="header">
+  <div id="header-wrapper">
+    <div id="header-top">
+      <a href="/" title="Smithsonian Transcription Center Home"><div id="logo"><img src="/sites/all/themes/si_tsc/images/header/logo.png" alt="Smithsonian" class="print-only" /></div></a>
+      <div id="header-navigation">
+        <div><a href="/">Home</a></div>
+<div class="submenu"><a href="/browse?sort=latest" title="Browse Projects">Projects</a><div id="header-navigation-submenu-projects" class="container-12">
+<ul id="nav-group-menu">
+	<li class="themes"><a href="javaScript:void(0)" style="cursor:default" title="Browse Projects by Themes">Themes</a>
+		<ul class="submenu">
+			<li><a href="/browse?filter=collection:10" title="See all projects in African American History">African American History</a></li>
+			<li><a href="/browse?filter=collection:1" title="See all projects in American Experience">American Experience</a></li>
+			<li><a href="/browse?filter=collection:9" title="See all projects in Art & Design">Art & Design</a></li>
+			<li><a href="/browse?filter=collection:19" title="See all projects in Audio Collections">Audio Collections</a></li>
+			<li><a href="/browse?filter=collection:5" title="See all projects in Civil War Era">Civil War Era</a></li>
+			<li><a href="/browse?filter=collection:8" title="See all projects in Freedmen's Bureau">Freedmen's Bureau</a></li>
+			<li><a href="/browse?filter=collection:3" title="See all projects in Mysteries of the Universe">Mysteries of the Universe</a></li>
+			<li><a href="/browse?filter=collection:4" title="See all projects in World Cultures">World Cultures</a></li>
+		</ul>
+	</li>
+	<li class="museums-and-archives"><a href="javaScript:void(0)" style="cursor:default" title="Browse Projects by Museums and Archives">Active Museums and Archives</a>
+		<ul class="submenu">
+			<li><a href="/browse?filter=owner:2" title="See all projects in Archives Center - NMAH">Archives Center - NMAH</a></li>
+			<li><a href="/browse?filter=owner:16" title="See all projects in Freedmen's Bureau">Freedmen's Bureau</a></li>
+			<li><a href="/browse?filter=owner:4" title="See all projects in Freer Gallery of Art and Arthur M. Sackler Gallery">Freer Gallery of Art and Arthur M. Sackler Gallery</a></li>
+			<li><a href="/browse?filter=owner:11" title="See all projects in Harvard-Smithsonian Center for Astrophysics">Harvard-Smithsonian Center for Astrophysics</a></li>
+			<li><a href="/browse?filter=owner:14" title="See all projects in Smithsonian National Air and Space Museum Archives">Smithsonian National Air and Space Museum Archives</a></li>
+			<li class="all"><a href="/browse?filter=all" title="See all projects">See All Projects</a></li>
+		</ul>
+	</li>
+</ul></div><div class="clearfix"></div></div>
+<div><a href="/search">Search</a></div>
+<div><a href="/about">About</a></div>
+<div><a href="/tips">Tips</a></div>
+<div><a href="/blog">Blog</a></div>
+      </div>
+    </div>
+    <div id="header-bottom" class="clearfix">
+      <div class="tagline">Smithsonian Digital Volunteers: <span>Transcription Center</span></div>
+      <div class="menu">
+        <a href="/user/login?destination=view/7955/NMAAHC-2015_97_42_016">Login</a><a href="/user/register">Signup</a>      </div>
+    </div>
+  </div>
+</div>
+
+  
+    <div class="main-content clearfix container_12">
+    <div class="grid_12">
+
+      
+              <div id="breadcrumb"><div class="breadcrumb"><a href="/">Home</a> &#62; <a href="/browse">Projects</a> &#62; <a href="/browse?owner=National%20Museum%20of%20African%20American%20History%20and%20Culture">National Museum of African American History and Culture</a> &#62; <a href="/project/7955">The Negro Motorist Green Book</a></div></div>
+      
+                    <h1 class="title" id="page-title" >Viewing page 16 of 27</h1>
+            
+      
+              <div class="tabs clearfix">
+                  </div>
+                  
+      
+      
+      <div id="the-content" class="actual-content">
+          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+	<div class="transcription-page-tools-container">
+	<ul class="transcription-page-tools">
+	<li class="tools-arrange-vertical tool-active"><a class="ir" title="Switch to Vertical Layout" href="javascript:void(0)">Switch to Vertical Layout</a></li>
+	<li class="tools-arrange-horizontal"><a class="ir" title="Switch to Horizontal Layout" href="javascript:void(0)">Switch to Horizontal Layout</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li title="Go to Previous Page" class="tools-prev"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_015">Go to Previous</a></li>
+	<li title="Return to Project Home" class="tools-home"><a class="ir" href="/project/7955">Return to Project Home</a></li>
+	<li title="Go to a Specific Page" class="tools-goto"><a href="#goto" class="goto ir">Go to a Specific Page</a><form action="/view/7955/NMAAHC-2015_97_42_016" method="get"><div class="form-goto"><label class="il" for="gotopage">Go to Page</label> <input type="text" name="position" id="gotopage" value="" size="4" /> <input type="submit" value="Go" /></div></form></li>
+	<li title="Go to Next Page" class="tools-next"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_017">Go to Next</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a title="Download PDF" class="pdf ir" href="/pdf/7955/NMAAHC-2015_97_42_016" onclick="_gaq.push(['_trackEvent', 'Download', 'National Museum of African American History and Culture', '7955-NMAAHC-2015_97_42_016.pdf']);">Download PDF</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a href="https://www.facebook.com/sharer.php?t=NMAAHC-2015_97_42_016&amp;u=https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_016" class="fb ir" title="Post this Page to Facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Facebook&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_016&#039;]);">Facebook</a></li>
+	<li class="tools-share"><a href="https://twitter.com/home?status=Currently%20transcribing%20https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_016%20%23volunpeers" class="tw ir" title="Tweet this Page" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Twitter&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_016&#039;]);">Tweet this</a></li>
+	</ul>
+	</div>
+
+	<div id="transcription-asset-wrapper" data-idsid="NMAAHC-2015_97_42_016">
+	<div id="transcription-asset-view">
+	<div id="asset-map">
+	<div id="containerIDS" style="width:100%;height:100%"></div>
+	</div>
+	</div>
+	</div>
+
+	<div class="transcription-gripper-horizontal">
+	<div class="transcription-gripper-thumb gripper"></div>
+	</div>
+
+	<div class="transcription-gripper-vertical">
+	<div class="transcription-gripper-thumb gripper"></div>
+	</div>
+
+	<div id="transcription-form-wrapper">
+	<div class="transcription-form">
+	<div class="transcription-form-header">
+		<div></div>
+	</div>
+	<div class="transcription-form-content">
+	<div class="taw-login-prompt mobile-only">It looks like you're using a mobile device. We recommend using a physical keyboard for transcription entry.<div></div></div>
+	<div class="viewer">
+
+
+<pre style="font-family: courier, monospace; white-space: pre-wrap; word-wrap: break-word;">POINTS OF INTEREST IN NEW YORK CITY
+
+THE EMPIRE STATE BUILDING is the tallest office building in the world and is situated at 5th Avenue between 33rd and 34th Streets. The site is nearly 2 acres and rises 102 stories above the ground and is 2 stories under the ground. It houses more than 25.000 tenants. Its elevators rise at the tremendous speed of 200 feet per second. While its express cars carry one to the 80th floor in one minute. 
+
+ELLIS ISLAND is the first landing place of the immigrant and is located in the upper bay of New York harbor. This island may be visited by securing a pass from the Commissioner of Immigration. 
+
+CATHEDRAL OF ST. JOHN THE DIVINE, located at Amsterdam Avenue 110th to 113th Streets, is America's greatest church edifice. When completed it will be the largest Gothic Cathedral in the world. The seating capacity is 15,000 and room for 40,000 standing. It has been in the building for the last 61 years the corner stone being laid in 1892. Visitors are always welcome and services are held practically all day.
+
+THE GEORGE WASHINGTON BRIDGE, over the Hudson River, is the longest suspension bridge in the East, connecting New York City at 179th Street and Fort Lee, N. J. It is used by millions of people annualy, and is the Northern route to motorists going South from the North. Its towers, which stand 80 feet higher than the Washington Monument can be seen for miles around. The New York Tower has the "Will Rogers Mem-orial Beacon," which serves as a guide to aviators.
+
+THE THEATRICAL DISTRICT OF NEW YORK, where all of the largest and best plays are staged and produced, is located in the heart of the city. Here you will find the largest and best showhouses in the world from 39th to 52nd Streets and 8th to 6th Ave.
+The colored show houses are located in Harlem: The Lafayette at 7th and 132nd Street; a W. P. A. house and the Apollo at 125th near 8th Avenue are the largest.
+
+THE GENERAL POST OFFICE is the largest post office in the world. It covers 2 city blocks from 31st Street to 33rd and from 8th to 9th Avenue. It houses 18,000 employees, makes 26 collections and 3 to 4 deliveries a day. 
+
+THE HOLLAND TUNNEL is the busiest vehicular tunnel in the world. Starts at Canal Street in New York and ends at 12th Street, Jersey City; N. J. This tunnel contains 2 tubes; one for West bound and the other for East bound traffic; each 2 tubes wide. The toll is 50c per car.
+
+THE TRI-BOROUGH BRIDGE, which connects three of the boroughs of Greater New York (Manhattan, Bronx, Queens). This bridge is 17 1/2 miles long and is the most direct route to the New York World's Fair. The toll charge is 25c.
+
+CHINATOWN, at the Bowery and Chatham Square, is New York's Oriental section.  Sight seeing busses will take visitors there from Times Square. Showing the Bloody Corner at Pell and Mott Streets which has been the place of countless murders caused by the rivalry of the Leong and Hip Sing Tongs.
+
+THE HAYDEN PLANETARIUM, which is located in the American Museum of Natural History at 81st Street and Central Park West can be seen "The Drama of the Skies." The most interesting feature of the Planetarium is the "Hall of the Sun." which shows the Solar System. There are six performances daily starting at 11 A. M. except Sunday and holidays. On these days the show starts at 10 A. M. The admission is 25c, 11 to 5 o'clock; evenings 8:30, 35c; 25c at 5 P. M. Saturday, Sunday and holidays. Children under 17 years of age 15c at all times. Reserved seats 50c and 60c.
+
+ROCKEFELLER CENTER  largest building project ever undertaken by private capital. Is situaed between 5th and 6th Avenue at 48th and 51st Streets, and occupies 12 acres. The tallest building in the group is the R. C. A. Building and is 70 stories tall and houses the National Broadcasting Co. On the West of Rockefeller Center is the Radio City Music Hall R. K. O. Building R. C. A. Building west and the Center Theatre, also Radio City which is named in honor of the Radio Corporation of America. On the Fifth Avenue side will be found the Le Maison Francaise, British Empire Building, Italian Building and the six story extension of the International Building.
+               28
+[end page ]
+
+[start page]
+           
+             A CANADIAN TRIP
+                By
+             BAXTER F. JACKSON
+            
+    It was Sunday early in July that we left the city with the voices of the Southernaires coming in over the car's radio. We struck out on the West side Drive and passing across the Hendrick Hudson Toll Bridge the long ribbon-like road stretched before us and the surrounding territory assured us that we were getting into open country at last. The fine weather, the sun pleasantly warm and the breezes kind made motoring with the top down something well worth all the sacrifices of the past year.
+    To attempt to describe New England with its pretty farm houses and white birches is something for a greater master of description than yours truly.
+    We rolled along without any event until the urge for food stopped us about 6 P.M. After a tasty meal we moved along until about 9 P. M. which time found us in Hanover N. H. Without any trouble we found a place that fitted our budget and went to sleep in a pleasant room with twin beds and a shower. The place was fine and we needed the two blankets.
+    The next morning we went about seeing the Dartmouth College Campus and the Town, sending a few postcards to mark the progress of the trip.
+    Our next stop was in Derby Line, a little village in Vermont, to pick up some films, as a result of packing too hurriedly. Next came the Canadian border and customs declarations. The process was simple and in a short time we were on our way. On seeing the fine road in front of us we began to make a mental calculation as to how long it would take us to get into Quebec. However the road being a back one which was our choice to avoid traffic, succeeded in accomplishing just that but left much to be desired as a road: however, we pulled out of the bad spots soon enough and with the motor singing and the radio doing the same in French and English and with the pure air and sunshine we soon forgot about the bad stretch of roadway and promptly settled down to almost run out of gas which brought us face to face with the "Imperial Gallon". We learned we needed less of this than the U. S. kind but as we did not speak enough French it cost us a little spilled gas, and as this was sort of a back road the people did not speak English "too much".
+   We reached Levis about 5:30 P. M. and crossed on the Ferry to Quebec by about 6:30. We found a nice hotel and bathed and dressed,-then we were on our way to the Chateau Frontenac for dinner by 8:30. Finding the dining room closed, we went into the grill and had a delicious meal served overlooking Dufferen Terrace. After dinner we strolled along to see what the Town had to offer. 
+   The next day we made an early start, picked up the car and hired one of the chauffeur-guides to take us around. These chauffer-guides 
+                  29
+</pre>
+
+
+	</div>
+	</div>
+	</div>
+	<div style="clear:both;"></div>
+	</div>
+	<div class="transcription-page-tools-container">
+	<ul class="transcription-page-tools">
+	<li class="tools-arrange-vertical tool-active"><a class="ir" title="Switch to Vertical Layout" href="javascript:void(0)">Switch to Vertical Layout</a></li>
+	<li class="tools-arrange-horizontal"><a class="ir" title="Switch to Horizontal Layout" href="javascript:void(0)">Switch to Horizontal Layout</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li title="Go to Previous Page" class="tools-prev"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_015">Go to Previous</a></li>
+	<li title="Return to Project Home" class="tools-home"><a class="ir" href="/project/7955">Return to Project Home</a></li>
+	<li title="Go to a Specific Page" class="tools-goto"><a href="#goto" class="goto ir">Go to a Specific Page</a><form action="/view/7955/NMAAHC-2015_97_42_016" method="get"><div class="form-goto"><label class="il" for="gotopage">Go to Page</label> <input type="text" name="position" id="gotopage" value="" size="4" /> <input type="submit" value="Go" /></div></form></li>
+	<li title="Go to Next Page" class="tools-next"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_017">Go to Next</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a title="Download PDF" class="pdf ir" href="/pdf/7955/NMAAHC-2015_97_42_016" onclick="_gaq.push(['_trackEvent', 'Download', 'National Museum of African American History and Culture', '7955-NMAAHC-2015_97_42_016.pdf']);">Download PDF</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a href="https://www.facebook.com/sharer.php?t=NMAAHC-2015_97_42_016&amp;u=https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_016" class="fb ir" title="Post this Page to Facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Facebook&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_016&#039;]);">Facebook</a></li>
+	<li class="tools-share"><a href="https://twitter.com/home?status=Currently%20transcribing%20https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_016%20%23volunpeers" class="tw ir" title="Tweet this Page" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Twitter&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_016&#039;]);">Tweet this</a></li>
+	</ul>
+	</div>
+
+<div class="disclaimer box">Please note that the language and terminology used in this collection reflects the context and culture of the time of its creation, and may include culturally sensitive information. As an historical document, its contents may be at odds with contemporary views and terminology. The information within this collection does not reflect the views of the Smithsonian Institution, but is available in its original form to facilitate research. For questions or comments regarding sensitive content, access, and use related to this collection, please contact <a href="mailto:transcribe@si.edu">transcribe@si.edu</a>.</div>  </div>
+</div>
+  </div>
+      </div>
+
+          </div>
+  </div>
+
+
+<footer>
+  <div id="footer-wrapper">
+    <div id="footer-links">
+      <a href="http://www.si.edu">&copy; 2020 SMITHSONIAN</a>
+      <a href="http://collections.si.edu">COLLECTIONS</a>
+      <a href="http://www.si.edu/termsofuse">TERMS OF USE</a>
+      <a href="http://www.si.edu/privacy">PRIVACY</a>
+      <a href="http://get.adobe.com/reader/">Download Adobe Reader</a>
+    </div>
+    <div id="footer-social-links"></div>
+  </div>
+</footer>
+
+  <!-- START OF SmartSource Data Collector TAG -->
+  <!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+  <!-- Version: 9.4.0 -->
+  <!-- Tag Builder Version: 4.1  -->
+  <!-- Created: 8/1/2013 7:43:34 PM -->
+  <script src="/sites/all/themes/si_tsc/scripts/webtrends.js" type="text/javascript"></script>
+  <!-- ----------------------------------------------------------------------------------- -->
+  <!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+  <!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+  <!-- ----------------------------------------------------------------------------------- -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var _tag=new WebTrends();
+    _tag.dcsGetId();
+    //]]>
+  </script>
+  <script type="text/javascript">
+    //<![CDATA[
+    _tag.dcsCustom=function(){};
+    _tag.dcsCollect();
+    //]]>
+  </script>
+  <noscript>
+    <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//logs1.smithsonian.museum/dcsu7poqvadzpxbd1amejqspv_4f1q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=transcription.si.edu"/></div>
+  </noscript>
+  <!-- END OF SmartSource Data Collector TAG -->
+	</body>
+</html>

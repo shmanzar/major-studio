@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://transcription.si.edu/sites/all/themes/si_tsc/favicon.ico" type="image/vnd.microsoft.icon" />
+	<title>Viewing page 5 of 27 |  Smithsonian Digital Volunteers</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+	<link rel="apple-touch-icon" href="" />
+	<style type="text/css" media="all">
+@import url("https://transcription.si.edu/modules/system/system.base.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/system/system.messages.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/system/system.theme.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/date/date_api/date.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/field/theme/field.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/node/node.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/search/search.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/transcribr_site/transcribr_site.css?qh5bl6");
+@import url("https://transcription.si.edu/modules/user/user.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/views/css/views.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/modules/ctools/css/ctools.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/modules/feedback_simple/feedback_simple.css?qh5bl6");
+</style>
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/screen.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/grid_12_col.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/browse.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/project.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/transcription.css?qh5bl6");
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/freezeframe.js/build/css/freezeframe_styles.min.css?qh5bl6");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Ultra|Tauri&amp;qh5bl6" media="all" />
+<style type="text/css" media="all">
+@import url("https://transcription.si.edu/sites/all/themes/si_tsc/scripts/colorbox.css?qh5bl6");
+</style>
+	<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/jquery/3.4/jquery.min.js?v=3.4.1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/jquery-migrate/3/jquery-migrate.min.js?v=3"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery-extend-3.4.0.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/misc/drupal.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.datepicker.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/json2.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/imagesloaded.pkgd.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/masonry.pkgd.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.jscroll.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.colorbox.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/scrollspy.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/freezeframe.js/src/js/freezeframe.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/jquery.cookie.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/themes/si_tsc/scripts/main.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/openseadragon/openseadragon.min.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/jquery.ids.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/transcribr_site/js/transcription-tools.js?qh5bl6"></script>
+<script type="text/javascript" src="https://transcription.si.edu/sites/all/modules/google_analytics/googleanalytics.js?qh5bl6"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-41739514-1", {"cookieDomain":"auto"});ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"si_tsc","theme_token":"PqPd0ttZqHjPjvKvrMlvmjY4DBYLziR-HDD2he3xHCY","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/3.4\/jquery.min.js":1,"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/3\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/json2.js":1,"sites\/all\/themes\/si_tsc\/scripts\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/masonry.pkgd.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.jscroll.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.colorbox.min.js":1,"sites\/all\/themes\/si_tsc\/scripts\/scrollspy.js":1,"sites\/all\/themes\/si_tsc\/scripts\/freezeframe.js\/src\/js\/freezeframe.js":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery.cookie.js":1,"sites\/all\/themes\/si_tsc\/scripts\/main.js":1,"sites\/all\/modules\/transcribr_site\/js\/openseadragon\/openseadragon.min.js":1,"sites\/all\/modules\/transcribr_site\/js\/jquery.ids.js":1,"sites\/all\/modules\/transcribr_site\/js\/transcription-tools.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/transcribr_featured\/transcribr_featured.css":1,"sites\/all\/modules\/transcribr_site\/transcribr_site.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/feedback_simple\/feedback_simple.css":1,"sites\/all\/themes\/si_tsc\/scripts\/screen.css":1,"sites\/all\/themes\/si_tsc\/scripts\/grid_12_col.css":1,"sites\/all\/themes\/si_tsc\/scripts\/browse.css":1,"sites\/all\/themes\/si_tsc\/scripts\/project.css":1,"sites\/all\/themes\/si_tsc\/scripts\/transcription.css":1,"sites\/all\/themes\/si_tsc\/scripts\/freezeframe.js\/build\/css\/freezeframe_styles.min.css":1,"sites\/all\/themes\/si_tsc\/css\/print.css":1,"\/\/fonts.googleapis.com\/css?family=Ultra|Tauri":1,"sites\/all\/themes\/si_tsc\/scripts\/jquery-ui-1.9.2.custom.min.css":1,"sites\/all\/themes\/si_tsc\/scripts\/colorbox.css":1}},"transcribr_site":[],"transcribrSiteIds":{"buttonImageQueryString":"v=1.0","buttonPath":"\/sites\/all\/modules\/transcribr_site\/js\/buttons\/","idsDynamicUrl":"https:\/\/ids.si.edu\/ids\/dynamic"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-view page-view- page-view-7955 page-view-nmaahc-2015-97-42-005" >
+	<div id="skip-link">
+		<a href="#the-content" class="element-invisible element-focusable">Skip to main content</a>
+	</div>
+		<div id="header">
+  <div id="header-wrapper">
+    <div id="header-top">
+      <a href="/" title="Smithsonian Transcription Center Home"><div id="logo"><img src="/sites/all/themes/si_tsc/images/header/logo.png" alt="Smithsonian" class="print-only" /></div></a>
+      <div id="header-navigation">
+        <div><a href="/">Home</a></div>
+<div class="submenu"><a href="/browse?sort=latest" title="Browse Projects">Projects</a><div id="header-navigation-submenu-projects" class="container-12">
+<ul id="nav-group-menu">
+	<li class="themes"><a href="javaScript:void(0)" style="cursor:default" title="Browse Projects by Themes">Themes</a>
+		<ul class="submenu">
+			<li><a href="/browse?filter=collection:10" title="See all projects in African American History">African American History</a></li>
+			<li><a href="/browse?filter=collection:1" title="See all projects in American Experience">American Experience</a></li>
+			<li><a href="/browse?filter=collection:9" title="See all projects in Art & Design">Art & Design</a></li>
+			<li><a href="/browse?filter=collection:19" title="See all projects in Audio Collections">Audio Collections</a></li>
+			<li><a href="/browse?filter=collection:5" title="See all projects in Civil War Era">Civil War Era</a></li>
+			<li><a href="/browse?filter=collection:8" title="See all projects in Freedmen's Bureau">Freedmen's Bureau</a></li>
+			<li><a href="/browse?filter=collection:3" title="See all projects in Mysteries of the Universe">Mysteries of the Universe</a></li>
+			<li><a href="/browse?filter=collection:4" title="See all projects in World Cultures">World Cultures</a></li>
+		</ul>
+	</li>
+	<li class="museums-and-archives"><a href="javaScript:void(0)" style="cursor:default" title="Browse Projects by Museums and Archives">Active Museums and Archives</a>
+		<ul class="submenu">
+			<li><a href="/browse?filter=owner:2" title="See all projects in Archives Center - NMAH">Archives Center - NMAH</a></li>
+			<li><a href="/browse?filter=owner:16" title="See all projects in Freedmen's Bureau">Freedmen's Bureau</a></li>
+			<li><a href="/browse?filter=owner:4" title="See all projects in Freer Gallery of Art and Arthur M. Sackler Gallery">Freer Gallery of Art and Arthur M. Sackler Gallery</a></li>
+			<li><a href="/browse?filter=owner:11" title="See all projects in Harvard-Smithsonian Center for Astrophysics">Harvard-Smithsonian Center for Astrophysics</a></li>
+			<li><a href="/browse?filter=owner:14" title="See all projects in Smithsonian National Air and Space Museum Archives">Smithsonian National Air and Space Museum Archives</a></li>
+			<li class="all"><a href="/browse?filter=all" title="See all projects">See All Projects</a></li>
+		</ul>
+	</li>
+</ul></div><div class="clearfix"></div></div>
+<div><a href="/search">Search</a></div>
+<div><a href="/about">About</a></div>
+<div><a href="/tips">Tips</a></div>
+<div><a href="/blog">Blog</a></div>
+      </div>
+    </div>
+    <div id="header-bottom" class="clearfix">
+      <div class="tagline">Smithsonian Digital Volunteers: <span>Transcription Center</span></div>
+      <div class="menu">
+        <a href="/user/login?destination=view/7955/NMAAHC-2015_97_42_005">Login</a><a href="/user/register">Signup</a>      </div>
+    </div>
+  </div>
+</div>
+
+  
+    <div class="main-content clearfix container_12">
+    <div class="grid_12">
+
+      
+              <div id="breadcrumb"><div class="breadcrumb"><a href="/">Home</a> &#62; <a href="/browse">Projects</a> &#62; <a href="/browse?owner=National%20Museum%20of%20African%20American%20History%20and%20Culture">National Museum of African American History and Culture</a> &#62; <a href="/project/7955">The Negro Motorist Green Book</a></div></div>
+      
+                    <h1 class="title" id="page-title" >Viewing page 5 of 27</h1>
+            
+      
+              <div class="tabs clearfix">
+                  </div>
+                  
+      
+      
+      <div id="the-content" class="actual-content">
+          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+	<div class="transcription-page-tools-container">
+	<ul class="transcription-page-tools">
+	<li class="tools-arrange-vertical tool-active"><a class="ir" title="Switch to Vertical Layout" href="javascript:void(0)">Switch to Vertical Layout</a></li>
+	<li class="tools-arrange-horizontal"><a class="ir" title="Switch to Horizontal Layout" href="javascript:void(0)">Switch to Horizontal Layout</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li title="Go to Previous Page" class="tools-prev"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_004">Go to Previous</a></li>
+	<li title="Return to Project Home" class="tools-home"><a class="ir" href="/project/7955">Return to Project Home</a></li>
+	<li title="Go to a Specific Page" class="tools-goto"><a href="#goto" class="goto ir">Go to a Specific Page</a><form action="/view/7955/NMAAHC-2015_97_42_005" method="get"><div class="form-goto"><label class="il" for="gotopage">Go to Page</label> <input type="text" name="position" id="gotopage" value="" size="4" /> <input type="submit" value="Go" /></div></form></li>
+	<li title="Go to Next Page" class="tools-next"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_006">Go to Next</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a title="Download PDF" class="pdf ir" href="/pdf/7955/NMAAHC-2015_97_42_005" onclick="_gaq.push(['_trackEvent', 'Download', 'National Museum of African American History and Culture', '7955-NMAAHC-2015_97_42_005.pdf']);">Download PDF</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a href="https://www.facebook.com/sharer.php?t=NMAAHC-2015_97_42_005&amp;u=https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_005" class="fb ir" title="Post this Page to Facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Facebook&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_005&#039;]);">Facebook</a></li>
+	<li class="tools-share"><a href="https://twitter.com/home?status=Currently%20transcribing%20https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_005%20%23volunpeers" class="tw ir" title="Tweet this Page" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Twitter&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_005&#039;]);">Tweet this</a></li>
+	</ul>
+	</div>
+
+	<div id="transcription-asset-wrapper" data-idsid="NMAAHC-2015_97_42_005">
+	<div id="transcription-asset-view">
+	<div id="asset-map">
+	<div id="containerIDS" style="width:100%;height:100%"></div>
+	</div>
+	</div>
+	</div>
+
+	<div class="transcription-gripper-horizontal">
+	<div class="transcription-gripper-thumb gripper"></div>
+	</div>
+
+	<div class="transcription-gripper-vertical">
+	<div class="transcription-gripper-thumb gripper"></div>
+	</div>
+
+	<div id="transcription-form-wrapper">
+	<div class="transcription-form">
+	<div class="transcription-form-header">
+		<div></div>
+	</div>
+	<div class="transcription-form-content">
+	<div class="taw-login-prompt mobile-only">It looks like you're using a mobile device. We recommend using a physical keyboard for transcription entry.<div></div></div>
+	<div class="viewer">
+
+
+<pre style="font-family: courier, monospace; white-space: pre-wrap; word-wrap: break-word;">IN PATRONIZING THESE PAGES [[on facing page]] PLEASE MENTION "THE GREEN BOOK" [[/facing page section]]
+____________________________________________
+[[listing is in 2 columns; transcribing in one column]]
+
+BARBER SHOPS
+Scott's - 6th & Clay St.
+Richie's Upright - 16th St.
+
+     BRINKLEY
+TOURIST HOMES
+Davis - 709 S. Main St.
+
+     EL DORADO
+HOTELS
+Brewster - E. & B. Sts.
+Greens - 303 Hill St.
+TOURIST HOMES
+C. W. Moore - 5th & Lincoln Ave.
+Dr. Dunning - 7th & Columbia Ave.
+RESTAURANTS
+Deluxe - 212 St.
+BARBER SHOPS
+Leaders - 301 1/2 Hill St.
+GARAGES
+Williams - 1305 E. 1st St.
+
+     FAYETTEVILLE
+HOTELS
+Mebbs - 9 N. Willow St.
+TOURIST HOMES
+Mrs. S. Manuel - 313 Olive St.
+Mrs. N. Smith - 259 E. Center St.
+
+     FORT SMITH
+HOTELS
+The Stratford - 1208 - 9th St.
+Ullery Inn - 719 N. 9th St.
+TOURIST HOMES
+E. O. Trent - 1301 N. 9th St.
+
+     HOT SPRINGS
+HOTELS
+Crittenden - 314 Cottage St.
+The Reed House - 115 Cottage St.
+Woodman - 511 Malvern
+TOURIST HOMES
+Barabin Villa - 717 Pleasant St.
+Mrs. J. W. Rife - 347 1/2 Malvern Ave.
+Mrs. N. Fletcher - 416 Pleasant St.
+Mrs. H. Greyer - 234 Garden St.
+Mrs. C. C. Wison - 232 Garden St.
+Mrs. H. Stilson - 735 Pleasant St.
+Mrs. E. E. Lawson - 706 Pleasant St.
+SANITARIUMS
+Psychean Baths - 415 1/2 Malvern
+
+     LITTLE ROCK
+RESTAURANTS
+LAFAYETTE LUNCHEONETTE
+904 STATE STREET
+
+     N. LITTLE ROCK
+RESTAURANTS
+De Luxe Cafe - 203 E. Wash. Ave.
+ 
+     PINE BLUFF
+HOTELS
+P. K. - 3rd & Alabama Sts
+Marietta - 3rd & Louisiana Sts.
+Smith's - East Third St.
+TOURIST HOMES
+Mrs. M. J. Hollis - 1108 W. 2nd Ave.
+Mrs. K. L. Bell - 1111 W. 2nd Ave.
+
+     RUSSELLVILLE
+TOURIST HOMES
+Mrs. M. Jackson - Herman St.
+Mrs. E. Latimore - 318 S. Houston Ave.
+
+     TEXARKANA
+HOTELS
+Brown's - 312 W. Elm St.
+TOURIST HOMES
+G. C. Mackey - 102 E. 9th St.
+RESTAURANTS
+Grants Cafe - 830 Laurel St.
+SERVICE STATIONS
+Smith & Rand - 723 W. 7th St.
+BEAUTY PARLORS
+W. B. Parlou - 1020 Laurel St.
+BARBER SHOPS
+G. Powell - 106 E. 9th St.
+
+     CALIFORNIA
+
+     BERKLEY
+TAVERNS
+Schaeffer's Cafe - 2940 Sacramento St.
+
+[[IMAGE: boxed]]
+An Attractive "AD"
+Under Your Own
+Classification
+Will Commend Attention
+Arrange Now For the Next
+Edition [[/box]]
+
+6
+[[end page]]
+
+[[start page]]
+[[on facing page]] IN PATRONIZING THESE PAGES [[/facing page section]] 
+PLEASE MENTION "THE GREEN BOOK" ____________________________________________
+[[listing is in 2 columns; transcribing in one column]]
+
+BEAUTY PARLORS
+Little Gem - 1511 Russell St.
+BARBER SHOPS
+Success - 2946 Sacramento St.
+
+     EL CENTRO
+HOTELS
+The Roland - 201 E. Main St.
+TOURIST HOMES
+Mrs. L. Augustus - 420 Commercial Ave.
+RESTAURANT
+Pearl McKinney Lunch [[-]] 301 Main St.
+
+     FRESNO
+TRAILER PARKS & CAMPS
+Barnes Drive In - 1412 "F" St.
+
+     LOS ANGELES
+HOTELS
+DUNBAR - 4225 S. Central Ave.
+Allen - 1123 Central Ave.
+Clark - 1818 - 24 S. Central Ave.
+Elite - 1217 Central Ave.
+Sojourner's - 1119 E. Adams Blvd.
+Sheridan - 1824 Central Ave.
+Regal - 815 E. 6th St.
+Arcade - 542 Ceres Ave.
+Olympic - 843 S. Central Ave.
+Kentucky - 1123 Central Ave.
+Lincoln Hotel - 549 Ceres Ave.
+TOURIST HOMES
+Mrs. B. Hoffman - 760 W. 17th St.
+Mrs. W. D. Grealoiu - 1311 W. 35 Place
+RESTAURANTS
+Southern - S. Normandie Ave.
+SERVICE STATIONS
+The Relay - 2732 S. Central Ave.
+Lewis & Hayes - 3426 S. Central Ave.
+TAVERNS
+Marble Inn - 1820 Imperial Highway
+BEAUTY PARLORS
+Mrs. A.B. Dunbar - 906 E. 54th St.
+Bee's - 1476 E. 110th St.
+Creole - 2221 Central Ave.
+LIQUOR STORES
+House of Morgan - 2729 S. Central
+GARAGES
+Bufford's - 5901 Aldine St.
+TAVERNS
+Overland Café - 1719 - 7th St.
+Rhythm Buffet - 1704 - 7th St.
+BEAUTY PARLORS
+Personality - 3613 San Dablo Ave.
+
+     PASADENA
+TAVERNS
+Kentucky - 1067 N. Fair Oaks
+SERVICE STATIONS
+Penn's Super - 1285 Lincoln Ave.
+Stacys - 920 N. Fair Oaks Ave.
+
+     SAN BERNARDINO
+TOURIST HOMES  
+Mrs. A. Phillips - 964 6th St.
+S.M. Carlton - 939 W. 6th St.
+
+     SAN DIEGO
+HOTELS
+Douglass - 206 Market St.
+Simmons - 542 Sixth Ave.
+Y.W.C.A. - 2905 Clay St. 
+TOURIST HOMES
+Mrs. E. Wallace - 537 13th St.
+RESTAURANT
+Johnson's - 18 N. 30th St.
+
+     SAN FRANCISCO
+TOURIST HOMES
+Mrs. F. Johnson - 1788 Sutter St.
+Helens Guest House - 1951 Sutter
+Mrs. R. Hulsey - 2946 Pine St.
+TAVERNS
+Jacks' - 1931 Sutter St.
+BEAUTY PARLORS
+Adrian - 1930 Sutter St.
+Arineica's - 1928 Fillmore St.
+Fredonia's - 1953 Sutter St.
+DRUG STORES
+Riggans' - 2600 Sutter St.
+NIGHT CLUBS
+Town Club - 1963 Sutter St.
+
+     SANTA MONICA
+TAVERNS
+La Nobita - 1897 Belmount Place
+  
+     TULARE
+TOURIST HOMES
+South K. St. - 330 So. "K" St.
+TAVERNS
+Kings - 322 South "K" St.
+
+     VICTORVILLE
+TOURIST HOMES
+Murray's Dude Ranch
+
+7
+
+     
+
+  
+</pre>
+
+
+	</div>
+	</div>
+	</div>
+	<div style="clear:both;"></div>
+	</div>
+	<div class="transcription-page-tools-container">
+	<ul class="transcription-page-tools">
+	<li class="tools-arrange-vertical tool-active"><a class="ir" title="Switch to Vertical Layout" href="javascript:void(0)">Switch to Vertical Layout</a></li>
+	<li class="tools-arrange-horizontal"><a class="ir" title="Switch to Horizontal Layout" href="javascript:void(0)">Switch to Horizontal Layout</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li title="Go to Previous Page" class="tools-prev"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_004">Go to Previous</a></li>
+	<li title="Return to Project Home" class="tools-home"><a class="ir" href="/project/7955">Return to Project Home</a></li>
+	<li title="Go to a Specific Page" class="tools-goto"><a href="#goto" class="goto ir">Go to a Specific Page</a><form action="/view/7955/NMAAHC-2015_97_42_005" method="get"><div class="form-goto"><label class="il" for="gotopage">Go to Page</label> <input type="text" name="position" id="gotopage" value="" size="4" /> <input type="submit" value="Go" /></div></form></li>
+	<li title="Go to Next Page" class="tools-next"><a class="ir" href="/view/7955/NMAAHC-2015_97_42_006">Go to Next</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a title="Download PDF" class="pdf ir" href="/pdf/7955/NMAAHC-2015_97_42_005" onclick="_gaq.push(['_trackEvent', 'Download', 'National Museum of African American History and Culture', '7955-NMAAHC-2015_97_42_005.pdf']);">Download PDF</a></li>
+	<li class="tools-spacer"><a class="ir" href="javascript:void(0)">Spacer</a></li>
+	<li class="tools-share"><a href="https://www.facebook.com/sharer.php?t=NMAAHC-2015_97_42_005&amp;u=https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_005" class="fb ir" title="Post this Page to Facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Facebook&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_005&#039;]);">Facebook</a></li>
+	<li class="tools-share"><a href="https://twitter.com/home?status=Currently%20transcribing%20https%3A//transcription.si.edu/view/7955/NMAAHC-2015_97_42_005%20%23volunpeers" class="tw ir" title="Tweet this Page" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Twitter&#039;, &#039;National Museum of African American History and Culture&#039;, &#039;7955-NMAAHC-2015_97_42_005&#039;]);">Tweet this</a></li>
+	</ul>
+	</div>
+
+<div class="disclaimer box">Please note that the language and terminology used in this collection reflects the context and culture of the time of its creation, and may include culturally sensitive information. As an historical document, its contents may be at odds with contemporary views and terminology. The information within this collection does not reflect the views of the Smithsonian Institution, but is available in its original form to facilitate research. For questions or comments regarding sensitive content, access, and use related to this collection, please contact <a href="mailto:transcribe@si.edu">transcribe@si.edu</a>.</div>  </div>
+</div>
+  </div>
+      </div>
+
+          </div>
+  </div>
+
+
+<footer>
+  <div id="footer-wrapper">
+    <div id="footer-links">
+      <a href="http://www.si.edu">&copy; 2020 SMITHSONIAN</a>
+      <a href="http://collections.si.edu">COLLECTIONS</a>
+      <a href="http://www.si.edu/termsofuse">TERMS OF USE</a>
+      <a href="http://www.si.edu/privacy">PRIVACY</a>
+      <a href="http://get.adobe.com/reader/">Download Adobe Reader</a>
+    </div>
+    <div id="footer-social-links"></div>
+  </div>
+</footer>
+
+  <!-- START OF SmartSource Data Collector TAG -->
+  <!-- Copyright (c) 1996-2013 Webtrends Inc.  All rights reserved. -->
+  <!-- Version: 9.4.0 -->
+  <!-- Tag Builder Version: 4.1  -->
+  <!-- Created: 8/1/2013 7:43:34 PM -->
+  <script src="/sites/all/themes/si_tsc/scripts/webtrends.js" type="text/javascript"></script>
+  <!-- ----------------------------------------------------------------------------------- -->
+  <!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+  <!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+  <!-- ----------------------------------------------------------------------------------- -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var _tag=new WebTrends();
+    _tag.dcsGetId();
+    //]]>
+  </script>
+  <script type="text/javascript">
+    //<![CDATA[
+    _tag.dcsCustom=function(){};
+    _tag.dcsCollect();
+    //]]>
+  </script>
+  <noscript>
+    <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//logs1.smithsonian.museum/dcsu7poqvadzpxbd1amejqspv_4f1q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=transcription.si.edu"/></div>
+  </noscript>
+  <!-- END OF SmartSource Data Collector TAG -->
+	</body>
+</html>
