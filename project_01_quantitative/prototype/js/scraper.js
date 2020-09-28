@@ -1,6 +1,6 @@
-// const puppeteer = require('puppeteer');
 var request = require('request');
 var fs = require('fs');
+var cheerio = require('cheerio');
 
 
 
@@ -20,9 +20,11 @@ for (let i = 1; i <= 27; i++) {
 function getData(link) {
     request(link, function(error, response, body) {
         if (!error && response.statusCode == 200) {
-            console.log(response, body)
+            console.log(response, body);
+            var $ = cheerio.load(body);
+            let body_text = $('.viewer').text().trim();
             let filename = link.match(/_\d{3}$/g);
-            fs.writeFileSync('../data/' + filename + '.txt', body);
+            fs.writeFileSync('../data/' + filename + '_text' + '.txt', body_text);
             console.log("File downloaded!");
         }
         else { console.log("Request failed!") }
