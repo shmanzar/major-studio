@@ -1,5 +1,4 @@
 // const puppeteer = require('puppeteer');
-var cheerio = require('cheerio');
 var request = require('request');
 var fs = require('fs');
 
@@ -31,4 +30,3 @@ function getData(link) {
 }
 
 link_array.forEach(link => getData(link));
-
