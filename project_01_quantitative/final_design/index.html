@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <title>The Green Book Mapped</title>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet"> 
+    <script src="./lib/d3/d3.js"></script>
+    <script src="./lib/Chart.js/Chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+<body>
+  <h1>The Green Book Mapped</h1>
+  <p>The Green Book was a series of travel guides published in the mid 20th century that listed hotels, restaurants, and other amenities where African-American travelers would be welcome and relatively safe while in transit. </p>
+
+  <p>  The National Museum of African American History and Culture has in it’s collections, a dataset comprised of a 1941 copy of the famous guide book. The Smithsonian’s Transcription Center has made available, via meticulous human transcription, the entire text contents of the book on its website. </p>
+    
+   <p style="padding-bottom: 2em;"> Each state is rated on the colour scale as to how “accessible” it was for African-American traverlers at the time. The scale considers a simple aggregation of the facilities available in the state. Clicking on a state will result in a drill-down to a bar chart showing various amenities available in the state such as taverns, nightclubs, and hotels. </p>
+  <div id="map"></div>
+  <!-- <svg id="container"></svg> -->
+
+
+
+  <canvas id="myChart" width="400" height="400"></canvas>
+  
+
+
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

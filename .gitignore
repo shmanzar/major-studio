@@ -67,4 +67,5 @@ Backup of *.doc*
 # Visio autosave temporary files
 *.~vsd*
 
-
+# node modules
+node_modules/

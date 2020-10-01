@@ -1,0 +1,27 @@
+body {
+    margin: 1em;
+    padding: 3em;
+    background-image: url("../img/background.jpg");
+    font-family: 'Old Standard TT', serif;
+
+  }
+  
+  #map {
+    width: 800px;
+    height: 500px;
+  }
+
+  .leaflet-container {
+    background: 'red';
+    outline: 0;
+    }
+
+h1 {
+  font-size: 52px;
+  font-weight: bolder;
+
+}
+
+p {
+  font-size: large;
+}
