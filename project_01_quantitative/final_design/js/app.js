@@ -1,5 +1,5 @@
-/// <reference types="d3" />
-/// <reference types="chart.js" />
+// / <reference types="d3" />
+// / <reference types="chart.js" />
 
 
 String.prototype.toProperCase = function () {
@@ -8,7 +8,7 @@ String.prototype.toProperCase = function () {
 
 async function drawViz() {
   const dataset = await d3.csv(
-    "../data/ms_proj1_greenbook_map_data.csv",
+    "https://raw.githubusercontent.com/shmanzar/major-studio/master/project_01_quantitative/final_design/data/ms_proj1_greenbook_map_data.csv",
     (d) => {
       return { state: d.State.toProperCase(), count: +d.Count };
     }
@@ -23,7 +23,7 @@ console.log(metricDataByCountry);
 
  //Load in GeoJSON data
 
-const countryShapes = await d3.json('../data/gz_2010_us_040_00_5m.json')
+const countryShapes = await d3.json('https://raw.githubusercontent.com/shmanzar/major-studio/master/project_01_quantitative/final_design/data/gz_2010_us_040_00_5m.json')
 console.log(countryShapes);
 
 var mapboxAccessToken = 'pk.eyJ1Ijoic2JvZ2hhbmkiLCJhIjoiY2lqY3B6am5mMDAwc3Zpa3VnMHJlcmk1biJ9.mvtroSzRbwei8cEKme4mCw';
