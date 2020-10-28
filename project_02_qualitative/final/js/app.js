@@ -14,7 +14,7 @@ options = {
     // messageHashDisplay: false
     // generateCommitHash: 
     // mode: 'compact',
-    // displayHash: false
+    // displayHash: false,
     // template:  {
     //   messageHashDisplay: false
     //     },
@@ -27,7 +27,7 @@ master.commit(
   {subject: "1787 - states came together and adopted the constitution",
   onMouseOver(commit) {
     console.log('test')
-    tooltip({ content: '<img src="https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTc1NDQ5ODg3Mjk3MzE2MDM0/constitutional-amendments-gettyimages-170466249.webp" />' });
+    tooltip({ content: `<img src="https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTc1NDQ5ODg3Mjk3MzE2MDM0/constitutional-amendments-gettyimages-170466249.webp" />` });
   }});
 master.tag("1787");
 const newFeature = gitgraph.branch("Bill of Rights");
