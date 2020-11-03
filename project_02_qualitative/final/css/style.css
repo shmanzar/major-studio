@@ -4,15 +4,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: darkgreen;
+    color: darkolivegreen;
     font-family: 'Fira Sans', sans-serif;
+    background-image: url("/img/bg.jpg");
     /* font-family: 'Montserrat', sans-serif;  */
   }
 
 
 .title  {
     font-family: 'Fira Code', monospace;
-    background-color: aquamarine;
+    padding: 50px;
+    /* background-color: aquamarine; */
     /* grid-area: title; */
 
   }
@@ -23,10 +25,10 @@ body {
     border-radius: 5px;
     padding: 5px;
   }
-  /* #grid-container div {
+  #grid-container div {
     width: 50%;
     height: 30%;
-  } */
+  }
 
   /* #grid-container-1 {
     width: 800px;
