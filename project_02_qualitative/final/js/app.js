@@ -10,9 +10,19 @@ var options = {
   contentType: 'html'
   // autoInsertCss:true
 };
+var options_2 = {
+  // strings: ['>❚','>^1000 git log --graph^1300 us_constitution'],
+  strings: [`<h3 class= "subtitle">Tracking changes in the US Constitution</h3>`],
+  typeSpeed: 40,
+  startDelay: 4000,
+  showCursor: false,
+  cursorChar: '❚',
+  contentType: 'html'
+  // autoInsertCss:true
+};
 
 var typed = new Typed('.title', options);
-
+var typed_2 = new Typed('.subtitle', options_2)
 
 const graphContainer = document.getElementById("gitgraph");
 
