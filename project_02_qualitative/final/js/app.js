@@ -1,5 +1,13 @@
 // import { createGitgraph } from "../node_modules/@gitgraph/js/lib/gitgraph.js";
 
+var options = {
+  strings: ['git log --graph us_constitution'],
+  typeSpeed: 20
+};
+
+var typed = new Typed('.title', options);
+
+
 const graphContainer = document.getElementById("gitgraph");
 
 // Helper functions to create SVGs
@@ -121,25 +129,6 @@ options = {
 }
 const gitgraph = GitgraphJS.createGitgraph(graphContainer, options);
 
-
-// var renderTooltip = function(commit) {
-//   console.log('working');
-//   var commitSize = commit.style.dot.size * 2;
-//   return createG({
-//     translate: { x: commitSize + 10, y: commitSize / 2 },
-//     children: [
-//       // renderSax(commit),
-//       createText({
-//         translate: { x: 40, y: 15 },
-//         fill: commit.style.dot.color,
-//         // fill: 'grey',
-//         // content: commit.hashAbbrev + ' - ' + commit.subject,
-//         content: commit.subject
-
-//       }),
-//     ],
-//   });
-// };
 function showTooltip(evt, text) {
   let tooltip = document.getElementById("tooltip");
   tooltip.innerHTML = text;
@@ -248,3 +237,25 @@ newFeature_27.commit("27th Amendment")
 master.merge(newFeature_27, "Amendment passed in 13123")
 
 
+
+
+
+
+// var renderTooltip = function(commit) {
+//   console.log('working');
+//   var commitSize = commit.style.dot.size * 2;
+//   return createG({
+//     translate: { x: commitSize + 10, y: commitSize / 2 },
+//     children: [
+//       // renderSax(commit),
+//       createText({
+//         translate: { x: 40, y: 15 },
+//         fill: commit.style.dot.color,
+//         // fill: 'grey',
+//         // content: commit.hashAbbrev + ' - ' + commit.subject,
+//         content: commit.subject
+
+//       }),
+//     ],
+//   });
+// };
