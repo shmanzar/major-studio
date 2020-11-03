@@ -185,8 +185,8 @@ master.commit(
 
 });
 // master.tag("1787");
-const newFeature_PBOR = gitgraph.branch({name:"Proposed Bill of Rights", style: {color: 'pink'}});
-newFeature_PBOR.commit({subject: "Proposed 1st Amendment", style: {dot: {color: 'pink'}},
+const newFeature_PBOR = gitgraph.branch({name:"Proposed Bill of Rights", style: {color: 'tomato'}});
+newFeature_PBOR.commit({subject: "Proposed 1st Amendment", style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 50px; top:600px;`, `<img src="img/proposed_1.png" width='1000px' height='100px'>`)
   console.log(`test ${commit.subject}`)
@@ -365,8 +365,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P13 = gitgraph.branch({name:"Proposed 13th Amendment", style: {color: 'pink'}});
-newFeature_P13.commit({subject: "Proposed 13th Amendment",style: {dot: {color: 'pink'}},
+const newFeature_P13 = gitgraph.branch({name:"Proposed 13th Amendment", style: {color: 'tomato'}});
+newFeature_P13.commit({subject: "Proposed 13th Amendment",style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed:</i> Titles of Nobility Amendment</h3><p>If any citizen of the United States shall accept, claim, receive or retain, any title of nobility or honour, or shall, without the consent of Congress, accept and retain any present, pension, office or emolument of any kind whatever, from any emperor, king, prince or foreign power, such person shall cease to be a citizen of the United States, and shall be incapable of holding any office of trust or profit under them, or either of them.</p>')
   console.log(`test ${commit.subject}`)
@@ -390,8 +390,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P14 = gitgraph.branch({name:"Proposed 14th Amendment", style: {color: 'pink'}});
-newFeature_P14.commit({subject: "Proposed 14th Amendment",style: {dot: {color: 'pink'}},
+const newFeature_P14 = gitgraph.branch({name:"Proposed 14th Amendment", style: {color: 'tomato'}});
+newFeature_P14.commit({subject: "Proposed 14th Amendment",style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed: </i> Corwin Amendment</h3><p>No amendment shall be made to the Constitution which will authorize or give to Congress the power to abolish or interfere, within any State, with the domestic institutions thereof, including that of persons held to labor or service by the laws of said State</p>')
   console.log(`test ${commit.subject}`)
@@ -466,8 +466,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P20 = gitgraph.branch({name:"Proposed 20th Amendment", style: {color: 'pink'}});
-newFeature_P20.commit({subject: "Proposed 20th Amendment",style: {dot: {color: 'pink'}},
+const newFeature_P20 = gitgraph.branch({name:"Proposed 20th Amendment", style: {color: 'tomato'}});
+newFeature_P20.commit({subject: "Proposed 20th Amendment",style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 800px; top:2900px;`, `<h3><i>Proposed: </i> Child Labour Amendment</h3><p>Section 1. The Congress shall have power to limit, regulate, and prohibit the labor of persons under eighteen years of age.</p>
   
@@ -574,8 +574,8 @@ renderTooltip(commit){}
 
 })
 
-const newFeature_P26 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'pink'}});
-newFeature_P26.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'pink'}},
+const newFeature_P26 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'tomato'}});
+newFeature_P26.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 20px; top:3900px;`, `<h3><i>Proposed: </i> Equal Rights Amendment</h3>
 
@@ -593,8 +593,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 })
 
-const newFeature_P28 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'pink'}});
-newFeature_P28.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'pink'}},
+const newFeature_P28 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'tomato'}});
+newFeature_P28.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'tomato'}},
 onMouseOver(commit){
   showTooltip(`left: 20px; top:3900px;`, `<h3><i>Proposed: </i> District of Columbia Voting Rights Amendment</h3>
 
