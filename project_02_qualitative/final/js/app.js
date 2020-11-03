@@ -326,7 +326,7 @@ renderTooltip(commit){},
   renderTooltip(commit){}
   })
 // Merge `newFeature` into `master`
-master.merge(newFeature_BOR, "September 25, 1789");
+master.merge({branch: newFeature_BOR, commitOptions: {subject:"Amendment passed on September 25, 1789", style: {dot: {color: 'royalblue'}}}});
 const newFeature_11 = gitgraph.branch({name:"11th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_11.commit({subject: "11th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -339,7 +339,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_11, "Amendment passed on February 7, 1795 ")
+master.merge({branch: newFeature_11, commitOptions: {subject:"Amendment passed on February 7, 1795", style: {dot: {color: 'royalblue'}}}})
 const newFeature_12 = gitgraph.branch({name:"12th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_12.commit({subject: "12th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -352,7 +352,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_12, "Amendment passed on June 15, 1804 ")
+master.merge({branch: newFeature_12, commitOptions: {subject:"Amendment passed on June 15, 1804", style: {dot: {color: 'royalblue'}}}})
 const newFeature_13 = gitgraph.branch({name:"13th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_13.commit({subject: "13th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -377,7 +377,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_13, "Amendment passed on December 6, 1865 ")
+master.merge({branch: newFeature_13, commitOptions: {subject:"Amendment passed on December 6, 1865", style: {dot: {color: 'royalblue'}}}})
 const newFeature_14 = gitgraph.branch({name:"14th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_14.commit({subject: "14th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -401,7 +401,7 @@ onMouseOut(commit){
 },
 renderTooltip(commit){}
 })
-master.merge(newFeature_14, "Amendment passed on July 9, 1868 ")
+master.merge({branch: newFeature_14, commitOptions: {subject:"Amendment passed on July 9, 1868", style: {dot: {color: 'royalblue'}}}})
 const newFeature_15 = gitgraph.branch({name:"15th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_15.commit({subject: "15th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -414,7 +414,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_15, "Amendment passed on February 3, 1870 ")
+master.merge({branch: newFeature_15, commitOptions: {subject:"Amendment passed on February 3, 1870", style: {dot: {color: 'royalblue'}}}})
 const newFeature_16 = gitgraph.branch({name:"16th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_16.commit({subject: "16th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -427,7 +427,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_16, "Amendment passed on February 3, 1913")
+master.merge({branch: newFeature_16, commitOptions: {subject:"Amendment passed on February 3, 1913", style: {dot: {color: 'royalblue'}}}})
 const newFeature_17 = gitgraph.branch({name:"17th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_17.commit({subject: "17th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
@@ -611,9 +611,9 @@ onMouseOut(commit){
 },
 renderTooltip(commit){}
 })
-master.merge(newFeature_26, "Amendment passed on July 1, 1971")
+master.merge({branch: newFeature_26, commitOptions: {subject:"Amendment passed on July 1, 1971", style: {dot: {color: 'royalblue'}}}})
 const newFeature_27 = gitgraph.branch({name:"27th Amendment", style: {color: 'mediumseagreen'}});
-newFeature_27.merge(newFeature_P27, "Amendment passed in 1992")
+newFeature_27.merge({branch: newFeature_P27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: 'royalblue'}}}})
 newFeature_27.commit({subject: "27th Amendment",style: {dot: {color: 'gold'}},
 onMouseOver(commit){
   showTooltip(`left: 550px; top:4200px;`, `<img src="img/27_.jpg" width='400px' height='600px'>`)
@@ -625,7 +625,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge(newFeature_27, "Amendment passed on May 5, 1992")
+master.merge({branch: newFeature_27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: 'royalblue'}}}})
 
 
 
