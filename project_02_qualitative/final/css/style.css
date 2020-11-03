@@ -16,7 +16,12 @@ body {
 
   }
 
-
+  #tooltip {
+    background: cornsilk;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
   /* #grid-container div {
     width: 50%;
     height: 30%;

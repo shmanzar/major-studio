@@ -1,24 +1,114 @@
 // import { createGitgraph } from "../node_modules/@gitgraph/js/lib/gitgraph.js";
 
 const graphContainer = document.getElementById("gitgraph");
-// const options = {
-//   template: templateExtend("metro", {
-//     colors: ["red", "blue", "orange"],
-//     // …
-//   }),
-// };
-// var withoutHash = GitgraphJS.templateExtend(GitgraphJS.TemplateName.Metro, {
-//   commit: {
-//     message: {
-//       displayHash: false,
-//     },
-//   },
-// })
+
+// Helper functions to create SVGs
+const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
+
+function createText(options) {
+  const text = document.createElementNS(SVG_NAMESPACE, "text");
+  text.setAttribute("alignment-baseline", "central");
+  text.setAttribute("dominant-baseline", "central");
+  text.textContent = options.content;
+
+  if (options.bold) {
+    text.setAttribute("font-weight", "bold");
+  }
+
+  if (options.fill) {
+    text.setAttribute("fill", options.fill);
+  }
+
+  if (options.font) {
+    text.setAttribute("style", `font: ${options.font}`);
+  }
+
+  if (options.anchor) {
+    text.setAttribute("text-anchor", options.anchor);
+  }
+
+  if (options.translate) {
+    text.setAttribute("x", options.translate.x.toString());
+    text.setAttribute("y", options.translate.y.toString());
+  }
+
+  if (options.onClick) {
+    text.addEventListener("click", options.onClick);
+  }
+
+  return text;
+}
+
+
+function createG(options) {
+  const g = document.createElementNS(SVG_NAMESPACE, "g");
+  options.children.forEach((child) => child && g.appendChild(child));
+
+  if (options.translate) {
+    g.setAttribute(
+      "transform",
+      `translate(${options.translate.x}, ${options.translate.y})`,
+    );
+  }
+
+  if (options.fill) {
+    g.setAttribute("fill", options.fill);
+  }
+
+  if (options.stroke) {
+    g.setAttribute("stroke", options.stroke);
+  }
+
+  if (options.strokeWidth) {
+    g.setAttribute("stroke-width", options.strokeWidth.toString());
+  }
+
+  if (options.onClick) {
+    g.addEventListener("click", options.onClick);
+  }
+
+  if (options.onMouseOver) {
+    g.addEventListener("mouseover", options.onMouseOver);
+  }
+
+  if (options.onMouseOut) {
+    g.addEventListener("mouseout", options.onMouseOut);
+  }
+
+  return g;
+}
+
+function createForeignObjectHTML(options) {
+  const result = document.createElementNS(SVG_NAMESPACE, "foreignObject");
+  result.setAttribute("width", options.width.toString());
+
+  if (options.translate) {
+    result.setAttribute("x", options.translate.x.toString());
+    result.setAttribute("y", options.translate.y.toString());
+  }
+
+  const div = document.createElement("div");
+  div.innerHTML = options.content;
+  result.appendChild(div);
+
+  return result;
+}
+
+const renderMessage = (commit) => {
+    return createForeignObjectHTML({
+        content: `<img src="${commit.subject}"/>`,
+    });
+};
+
+
+
 options = {
     // author: ' ',
     orientation: 'vertical-reverse',
+    mode: GitgraphJS.Mode.Compact,
     // generateCommitHash: GitgraphJS.createFixedHashGenerator(),
         template: GitgraphJS.templateExtend(GitgraphJS.TemplateName.Metro, {
+          branch: { label: { display: false } }, 
           commit: {
             message: {
               // author: " ",
@@ -31,34 +121,62 @@ options = {
 }
 const gitgraph = GitgraphJS.createGitgraph(graphContainer, options);
 
-var renderTooltip = function(commit) {
-  console.log('working');
-  var commitSize = commit.style.dot.size * 2;
-  return createG({
-    translate: { x: commitSize + 10, y: commitSize / 2 },
-    children: [
-      // renderSax(commit),
-      createText({
-        translate: { x: 40, y: 15 },
-        fill: commit.style.dot.color,
-        // content: commit.hashAbbrev + ' - ' + commit.subject,
-        content: commit.subject,
 
-      }),
-    ],
-  });
-};
+// var renderTooltip = function(commit) {
+//   console.log('working');
+//   var commitSize = commit.style.dot.size * 2;
+//   return createG({
+//     translate: { x: commitSize + 10, y: commitSize / 2 },
+//     children: [
+//       // renderSax(commit),
+//       createText({
+//         translate: { x: 40, y: 15 },
+//         fill: commit.style.dot.color,
+//         // fill: 'grey',
+//         // content: commit.hashAbbrev + ' - ' + commit.subject,
+//         content: commit.subject
+
+//       }),
+//     ],
+//   });
+// };
+function showTooltip(evt, text) {
+  let tooltip = document.getElementById("tooltip");
+  tooltip.innerHTML = text;
+  tooltip.style.display = "grid";
+  tooltip.style.left = 90 + 'px';
+  tooltip.style.top = 50 + 'px';
+  // tooltip.style.left = evt.pageX + 50 + 'px';
+  // tooltip.style.top = evt.pageY + 50 + 'px';
+}
+
+function hideTooltip() {
+  var tooltip = document.getElementById("tooltip");
+  tooltip.style.display = "none";
+}
 
 const master = gitgraph.branch("US Constitution");
 master.commit(
-  {subject: "Articles of Confederation"
+  {subject: "Articles of Confederation",
+ onMouseOver(commit){
+    showTooltip('evt', `<img src="img/constitution-page1.jpg" width='300px' height='400px'>`)
+    console.log(`test ${commit.subject}`)
+    // renderTooltip(commit)
+  },
+  onMouseOut(commit){
+    hideTooltip()
+  }
 });
 master.commit(
-  {subject: "states came together and adopted the constitution",
-  // onMouseOver(commit) {
-  //   console.log('test')
-  //   tooltip({ content: `<img src="https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTc1NDQ5ODg3Mjk3MzE2MDM0/constitutional-amendments-gettyimages-170466249.webp" />` });}
-  renderTooltip: renderTooltip,
+  {subject: 'constitution',
+  onMouseOver(commit){
+    showTooltip('evt', `<img src="img/NMAH-ET2016-04901.jpg" width='500px' height='800px'>`)
+    console.log(`test ${commit.subject}`)
+    // renderTooltip(commit)
+  },
+  onMouseOut(commit){
+    hideTooltip()
+  }
 });
 master.tag("1787");
 const newFeature_BOR = gitgraph.branch("Bill of Rights");
@@ -73,7 +191,7 @@ newFeature_BOR.commit("2nd Amendment")
   .commit('9th Amendment')
   .commit('10th Amendment')
 // Merge `newFeature` into `master`
-master.merge(newFeature_BOR, "passed in 23432");
+master.merge(newFeature_BOR, {subject: "Add feature"});
 const newFeature_11 = gitgraph.branch("11th Amendment");
 newFeature_11.commit("11th Amendment")
 master.merge(newFeature_11, "Amendment passed in 13123")
@@ -125,3 +243,5 @@ master.merge(newFeature_26, "Amendment passed in 13123")
 const newFeature_27 = gitgraph.branch("27th Amendment");
 newFeature_27.commit("27th Amendment")
 master.merge(newFeature_27, "Amendment passed in 13123")
+
+
