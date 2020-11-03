@@ -165,7 +165,8 @@ master.commit(
   },
   onMouseOut(commit){
     hideTooltip()
-  }
+  },
+  renderTooltip(commit){}
 });
 master.commit(
   {subject: 'constitution',
@@ -176,7 +177,9 @@ master.commit(
   },
   onMouseOut(commit){
     hideTooltip()
-  }
+  },
+  renderTooltip(commit){}
+
 });
 master.tag("1787");
 const newFeature_BOR = gitgraph.branch("Bill of Rights");
