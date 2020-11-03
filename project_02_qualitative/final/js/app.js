@@ -343,7 +343,7 @@ master.merge(newFeature_11, "Amendment passed on February 7, 1795 ")
 const newFeature_12 = gitgraph.branch({name:"12th Amendment", style: {color: 'mediumseagreen'}});
 newFeature_12.commit({subject: "12th Amendment",style: {dot: {color: 'mediumseagreen'}},
 onMouseOver(commit){
-  showTooltip(`left: 250px; top:1450px;`, `<img src="img/a12.jpg" width='400px' height='700px'>`)
+  showTooltip(`left: 350px; top: 1450px;`, `<img src="img/a12.jpg" width='400px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
