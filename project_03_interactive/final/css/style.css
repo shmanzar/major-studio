@@ -1,18 +1,40 @@
 body {
-background-color: #E7E2CF;
+  background-color: #e7e2cf;
 }
 
 h1 {
-    color: #7B2836;
-    font-family: 'Merriweather';
-    font-style: black;
+  color: #7b2836;
+  font-family: "Merriweather";
+  font-weight: 900;
+}
+.column {
+  float: left;
 }
 
+.right {
+  width: 35%;
+}
 
+.middle {
+  width: 20%;
+}
 
+.left {
+    width: 65%;    
+}
 
 #title {
-    margin-left: 1%;
+  margin-left: 1%;
 }
 
+.legend-colour-slot-add {
+  fill: #8f9a5b;
+}
 
+.legend-colour-slot-mod {
+  fill: #d4c491;
+}
+
+.legend-colour-slot-del {
+  fill: #9e4343;
+}
