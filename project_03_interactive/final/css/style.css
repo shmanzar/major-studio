@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
   background-color: #e7e2cf;
 }
@@ -7,21 +11,37 @@ h1 {
   font-family: "Merriweather";
   font-weight: 900;
 }
-.column {
+
+.row {
+  width: 100%;
+  min-height: 100vh;
+  /* change the min-height to max-height: 100vh to stop the overflow */
+  display: grid;
+  /* change the ratios below to change column sizes */
+  grid-template-columns: 0.5fr 0.3fr 2fr;
+  /* grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); */
+  /* grid-auto-rows: 400px; */
+  grid-gap: 5px;
+  /* align-items: center;
+  justify-items: right; */
+}
+
+/* .column {
   float: left;
 }
 
-.right {
-  width: 35%;
+.left {
+    width: 30%;    
 }
+
 
 .middle {
-  width: 20%;
+  width: 10%;
 }
 
-.left {
-    width: 65%;    
-}
+.right {
+    width: 60%;
+  } */
 
 #title {
   margin-left: 1%;
@@ -37,4 +57,13 @@ h1 {
 
 .legend-colour-slot-del {
   fill: #9e4343;
+}
+
+.line {   
+  /* position: absolute; */
+  z-index: -1;
+  /* top: 0; */
+  /* bottom: 0; */
+  /* left: 50%; */
+  border-left: 1px dashed #ccc;
 }
