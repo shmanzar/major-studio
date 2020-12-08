@@ -150,6 +150,8 @@ master.commit(
  onMouseOver(commit){
     showTooltip(`left: 50px; top:300px;`, `<img src="img/NMAH-ET2016-04901.jpg" width='500px' height='800px'>`)
     console.log(`test ${commit.subject}`)
+    document.querySelector(".const-text").classList.toggle("const-text-green");
+
     // renderTooltip(commit)
   },
   onMouseOut(commit){
