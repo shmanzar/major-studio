@@ -21,10 +21,12 @@ h2 {
 }
 
 .explain-box {
-  color: #9d9687;
-  font-family: "Playfair Display";
+  color: #8e8a76;
+  font-family: "Fira Sans";
   /* font-family: "Neuton"; */
-  font-size: small;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
 }
 
 .row {
@@ -33,7 +35,7 @@ h2 {
   /* change the min-height to max-height: 100vh to stop the overflow */
   display: grid;
   /* change the ratios below to change column sizes */
-  grid-template-columns: 0.5fr 0.3fr 2fr;
+  grid-template-columns: 1fr 0.5fr 3fr;
   grid-template-rows: auto;
   /* grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); */
   /* grid-auto-rows: 400px; */
@@ -94,7 +96,8 @@ h2 {
   font-size: 3px;
   text-align: center;
   padding-left: 3em;
-  
+  color: #8e8a76;
+
 }
 
 .const-text-green {
