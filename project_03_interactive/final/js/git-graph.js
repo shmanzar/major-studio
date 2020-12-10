@@ -282,7 +282,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "7th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:1160px;', `<img src="img/a7.png" width='1000px' height='60px'>`)
+    showTooltip('left: 400px; top: 290px;', `<img src="img/a7.png" width='1000px' height='40px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -292,7 +292,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "8th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip("left: 50px; top:1180px", `<img src="img/a8.png" width='1000px' height='30px'>`)
+    showTooltip("left: 400px; top: 250px", `<img src="img/a8.png" width='1000px' height='30px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -302,7 +302,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "9th Amendment",  style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:1270px', `<img src="img/a9.png" width='1000px' height='30px'>`)
+    showTooltip('left: 400px; top: 250px', `<img src="img/a9.png" width='1000px' height='29px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -312,7 +312,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "10th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:1300px', `<img src="img/a10.png" width='1000px' height='50px'>`)
+    showTooltip('left: 400px; top: 280px', `<img src="img/a10.png" width='1000px' height='50px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -325,7 +325,7 @@ master.merge({branch: newFeature_BOR, commitOptions: {subject:"Amendment passed 
 const newFeature_11 = gitgraph.branch({name:"11th Amendment", style: {color: '#9cc28b'}});
 newFeature_11.commit({subject: "11th Amendment", style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 250px; top:1400px;`, `<img src="img/a11.jpg" width='500px' height='700px'>`)
+  showTooltip(`left: 600px; top: 290px;`, `<img src="img/a11.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -338,7 +338,7 @@ master.merge({branch: newFeature_11, commitOptions: {subject:"Amendment passed o
 const newFeature_12 = gitgraph.branch({name:"12th Amendment",  style: {color: '#9cc28b'}});
 newFeature_12.commit({subject: "12th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 350px; top: 1450px;`, `<img src="img/a12.jpg" width='400px' height='700px'>`)
+  showTooltip(`left: 600px; top: 290px;`, `<img src="img/a12.jpg" width='400px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -351,7 +351,7 @@ master.merge({branch: newFeature_12, commitOptions: {subject:"Amendment passed o
 const newFeature_13 = gitgraph.branch({name:"13th Amendment",  style: {color: '#9cc28b'}});
 newFeature_13.commit({subject: "13th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 400px; top:1450px;`, `<img src="img/a13.jpg" width='500px' height='700px'>`)
+  showTooltip(`left: 680px; top: 300px;`, `<img src="img/a13.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -363,7 +363,7 @@ renderTooltip(commit){}
 const newFeature_P13 = gitgraph.branch({name:"Proposed 13th Amendment", style: {color: '#cebd50'}});
 newFeature_P13.commit({subject: "Proposed 13th Amendment",style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed:</i> Titles of Nobility Amendment</h3><p>If any citizen of the United States shall accept, claim, receive or retain, any title of nobility or honour, or shall, without the consent of Congress, accept and retain any present, pension, office or emolument of any kind whatever, from any emperor, king, prince or foreign power, such person shall cease to be a citizen of the United States, and shall be incapable of holding any office of trust or profit under them, or either of them.</p>')
+  showTooltip(`left: 600px; top: 290px;`, '<h3><i>Proposed:</i> Titles of Nobility Amendment</h3><p>If any citizen of the United States shall accept, claim, receive or retain, any title of nobility or honour, or shall, without the consent of Congress, accept and retain any present, pension, office or emolument of any kind whatever, from any emperor, king, prince or foreign power, such person shall cease to be a citizen of the United States, and shall be incapable of holding any office of trust or profit under them, or either of them.</p>')
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -376,7 +376,7 @@ master.merge({branch: newFeature_13, commitOptions: {subject:"Amendment passed o
 const newFeature_14 = gitgraph.branch({name:"14th Amendment",  style: {color: '#9cc28b'}});
 newFeature_14.commit({subject: "14th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 440px; top:1500px;`, `<img src="img/a14.jpg" width='500px' height='750px'>`)
+  showTooltip(`left: 700px; top: 300px;`, `<img src="img/a14.jpg" width='500px' height='750px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -388,7 +388,7 @@ renderTooltip(commit){}
 const newFeature_P14 = gitgraph.branch({name:"Proposed 14th Amendment", style: {color: '#cebd50'}});
 newFeature_P14.commit({subject: "Proposed 14th Amendment",style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed: </i> Corwin Amendment</h3><p>No amendment shall be made to the Constitution which will authorize or give to Congress the power to abolish or interfere, within any State, with the domestic institutions thereof, including that of persons held to labor or service by the laws of said State</p>')
+  showTooltip(`left: 600px; top: 350px;`, '<h3><i>Proposed: </i> Corwin Amendment</h3><p>No amendment shall be made to the Constitution which will authorize or give to Congress the power to abolish or interfere, within any State, with the domestic institutions thereof, including that of persons held to labor or service by the laws of said State</p>')
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -400,7 +400,7 @@ master.merge({branch: newFeature_14, commitOptions: {subject:"Amendment passed o
 const newFeature_15 = gitgraph.branch({name:"15th Amendment",  style: {color: '#9cc28b'}});
 newFeature_15.commit({subject: "15th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 450px; top:2000px;`, `<img src="img/a15.jpg" width='500px' height='700px'>`)
+  showTooltip(`left: 700px; top: 300px;`, `<img src="img/a15.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -413,7 +413,7 @@ master.merge({branch: newFeature_15, commitOptions: {subject:"Amendment passed o
 const newFeature_16 = gitgraph.branch({name:"16th Amendment",  style: {color: '#9cc28b'}});
 newFeature_16.commit({subject: "16th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 400px; top:1670px;`, `<img src="img/a16.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 700px; top: 300px;`, `<img src="img/a16.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -426,7 +426,7 @@ master.merge({branch: newFeature_16, commitOptions: {subject:"Amendment passed o
 const newFeature_17 = gitgraph.branch({name:"17th Amendment",  style: {color: '#9cc28b'}});
 newFeature_17.commit({subject: "17th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 400px; top:1900px;`, `<img src="img/a17.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 730px; top: 350px;`, `<img src="img/a17.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -439,7 +439,7 @@ master.merge({branch: newFeature_17, commitOptions: {subject: "Amendment passed 
 const newFeature_18 = gitgraph.branch({name:"18th Amendment", style: {color: '#9e4343'}});
 newFeature_18.commit({subject: "18th Amendment",style: {dot: {color: '#9e4343'}},
 onMouseOver(commit){
-  showTooltip(`left: 610px; top:2090px;`, `<img src="img/a18.jpg" width='500px' height='800px'>`)
+  showTooltip(`left: 730px; top: 350px;`, `<img src="img/a18.jpg" width='500px' height='800px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
