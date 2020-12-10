@@ -1,5 +1,5 @@
 body {
-  background-color: #e7e2cf;
+  background-color: #e6e3cf;
 }
 
 h1 {
@@ -178,11 +178,11 @@ h2 {
 
 
 .legend-colour-slot-add {
-  fill: #8f9a5b;
+  fill: #9cc28b;
 }
 
 .legend-colour-slot-mod {
-  fill: #d4c491;
+  fill: #19184a;
 }
 
 .legend-colour-slot-del {
@@ -190,12 +190,12 @@ h2 {
 }
 
 .legend-colour-slot-prp {
-  fill: #79a7a4
+  fill: #cebd50;
   ;
 }
 
 .const-text {
-  font-size: 4.5px;
+  font-size: 3.25px;
   text-align: center;
   padding-left: 3em;
   color: #8e8a76;
