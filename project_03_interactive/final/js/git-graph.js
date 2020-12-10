@@ -452,7 +452,7 @@ master.merge({branch: newFeature_18, commitOptions: {subject: "Amendment passed 
 const newFeature_19 = gitgraph.branch({name:"19th Amendment",  style: {color: '#9cc28b'}});
 newFeature_19.commit({subject: "19th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 650px; top:2180px;`, `<img src="img/a19.jpg" width='500px' height='800px'>`)
+  showTooltip(`left: 750px; top: 350px;`, `<img src="img/a19.jpg" width='500px' height='800px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -464,7 +464,7 @@ renderTooltip(commit){}
 const newFeature_P20 = gitgraph.branch({name:"Proposed 20th Amendment", style: {color: '#cebd50'}});
 newFeature_P20.commit({subject: "Proposed 20th Amendment",style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 800px; top:2900px;`, `<h3><i>Proposed: </i> Child Labour Amendment</h3><p>Section 1. The Congress shall have power to limit, regulate, and prohibit the labor of persons under eighteen years of age.</p>
+  showTooltip(`left: 750px; top: 550px;`, `<h3><i>Proposed: </i> Child Labour Amendment</h3><p>Section 1. The Congress shall have power to limit, regulate, and prohibit the labor of persons under eighteen years of age.</p>
   
   <p>Section 2. The power of the several States is unimpaired by this article except that the operation of State laws shall be suspended to the extent necessary to give effect to legislation enacted by the Congress</p>
   <p><img src="img/cla.jpg" width='300px' height='500px'></p>`)
@@ -481,7 +481,7 @@ master.merge({branch: newFeature_19, commitOptions:{subject: "Amendment passed o
 const newFeature_20 = gitgraph.branch({name:"20th Amendment",  style: {color: '#9cc28b'}});
 newFeature_20.commit({subject: "20th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 700px; top:2400px;`, `<img src="img/a20.jpg" width='500px' height='700px'>`)
+  showTooltip(`left: 780px; top: 500px;`, `<img src="img/a20.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -494,7 +494,7 @@ master.merge({branch: newFeature_20, commitOptions:{subject: "Amendment passed o
 const newFeature_21 = gitgraph.branch({name:"21st Amendment",  style: {color: '#9cc28b'}});
 newFeature_21.commit({subject: "21st Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 730px; top:2600px;`, `<img src="img/a21.jpg" width='500px' height='800px'>`)
+  showTooltip(`left: 790px; top: 550px;`, `<img src="img/a21.jpg" width='500px' height='800px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -507,7 +507,7 @@ master.merge({branch: newFeature_21, commitOptions: {subject: "Amendment passed 
 const newFeature_22 = gitgraph.branch({name:"22nd Amendment",  style: {color: '#9cc28b'}});
 newFeature_22.commit({subject: "22nd Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 790px; top:2790px;`, `<img src="img/a22.jpg" width='400px' height='700px'>`)
+  showTooltip(`left: 820px; top: 590px;`, `<img src="img/a22.jpg" width='450px' height='700px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -520,7 +520,7 @@ master.merge({branch: newFeature_22, commitOptions: {subject: "Amendment passed 
 const newFeature_23 = gitgraph.branch({name:"23th Amendment",  style: {color: '#9cc28b'}});
 newFeature_23.commit({subject: "23rd Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 850px; top:2820px;`, `<img src="img/a23.jpg" width='430px' height='800px'>`)
+  showTooltip(`left: 820px; top: 600px;`, `<img src="img/a23.jpg" width='430px' height='800px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -533,7 +533,7 @@ master.merge({branch: newFeature_23, commitOptions: {subject: "Amendment passed 
 const newFeature_24 = gitgraph.branch({name:"24th Amendment",  style: {color: '#9cc28b'}});
 newFeature_24.commit({subject: "24th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 950px; top:3200px;`, `<img src="img/a24.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 850px; top: 620px;`, `<img src="img/a24.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -546,7 +546,7 @@ master.merge({branch: newFeature_24, commitOptions: {subject: "Amendment passed 
 const newFeature_25 = gitgraph.branch({name:"25th Amendment",  style: {color: '#9cc28b'}});
 newFeature_25.commit({subject: "25th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 970px; top:3700px;`, `<img src="img/a25.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 870px; top: 690px;`, `<img src="img/a25.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -559,7 +559,7 @@ master.merge({branch: newFeature_25, commitOptions: {subject: "Amendment passed 
 const newFeature_26 = gitgraph.branch({name:"26th Amendment", style: {color: '#9cc28b'}});
 newFeature_26.commit({subject: "26th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 870px; top:3400px;`, `<img src="img/a26_.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 880px; top: 700px;`, `<img src="img/a26_.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -572,7 +572,7 @@ renderTooltip(commit){}
 const newFeature_P26 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: '#cebd50'}});
 newFeature_P26.commit({subject: "Proposed 26th Amendment",style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 20px; top:3900px;`, `<h3><i>Proposed: </i> Equal Rights Amendment</h3>
+  showTooltip(`left: 880px; top: 750px;`, `<h3><i>Proposed: </i> Equal Rights Amendment</h3>
 
   <p>"Section 1. Equality of rights under the law shall not be denied or abridged by the United States or by any State on account of sex.</p>
 
@@ -591,7 +591,7 @@ renderTooltip(commit){}
 const newFeature_P28 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: '#cebd50'}});
 newFeature_P28.commit({subject: "Proposed 26th Amendment",style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 50px; top:5900px;`, `<h3><i>Proposed: </i> District of Columbia Voting Rights Amendment</h3>
+  showTooltip(`left: 820px; top: 750px;`, `<h3><i>Proposed: </i> District of Columbia Voting Rights Amendment</h3>
 
   <p>Section 1. For purposes of representation in the Congress, election of the President and Vice President, and article V of this Constitution, the District constituting the seat of government of the United States shall be treated as though it were a State.</p>
 
@@ -611,7 +611,7 @@ const newFeature_27 = gitgraph.branch({name:"27th Amendment",  style: {color: '#
 newFeature_27.merge({branch: newFeature_P27, commitOptions: {displayhash: false,subject:"Amendment passed on May 5, 1992", style: {dot: {color: '#cebd50'}}}})
 newFeature_27.commit({subject: "27th Amendment",style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip(`left: 550px; top:4200px;`, `<img src="img/27_.jpg" width='400px' height='600px'>`)
+  showTooltip(`left: 880px; top: 790px;`, `<img src="img/27_.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
