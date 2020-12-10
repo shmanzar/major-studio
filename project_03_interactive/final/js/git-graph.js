@@ -134,12 +134,13 @@ function showTooltip(evt, text) {
   tooltip.setAttribute('style', evt)
   tooltip.style.position = "absolute";
   tooltip.style.display = "block"
+  tooltip.style.left = 600 + 'px';
   // tooltip.style.left = 90 + 'px';
-  // tooltip.style.top = 500 + 'px';
-  // tooltip.style.left = evt.pageX + '50' + 'px';
-  // tooltip.style.top = evt.pageY + '50' + 'px';
-  // tooltip.style("left", (d3.mouse(this)[0]+70) + "px")
-  // .style("top", (d3.mouse(this)[1]) + "px");
+  tooltip.style.top = 350 + 'px';
+  tooltip.style.left = evt.pageX + '50' + 'px';
+  tooltip.style.top = evt.pageY + '50' + 'px';
+  tooltip.style("left", (d3.mouse(this)[0]+70) + "px")
+  .style("top", (d3.mouse(this)[1]) + "px");
 }
 
 function hideTooltip() {
@@ -175,8 +176,8 @@ master.commit(
 
 });
 // master.tag("1787");
-const newFeature_PBOR = gitgraph.branch({name:"Proposed Bill of Rights", style: {color: '#587a82'}});
-newFeature_PBOR.commit({subject: "Proposed 1st Amendment", style: {dot: {color: '#587a82'}},
+const newFeature_PBOR = gitgraph.branch({name:"Proposed Bill of Rights", style: {color: '#79a7a4'}});
+newFeature_PBOR.commit({subject: "Proposed 1st Amendment", style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 50px; top:600px;`, `<img src="img/proposed_1.png" width='1000px' height='100px'>`)
   console.log(`test ${commit.subject}`)
@@ -199,9 +200,9 @@ renderTooltip(commit){}
 });
 
 
-const newFeature_BOR = gitgraph.branch({name:"Bill of Rights", style: {color: 'mediumseagreen'}});
+const newFeature_BOR = gitgraph.branch({name:"Bill of Rights", style: {color: '#8f9a5b'}});
 
-// newFeature_BOR.commit({subject: "Proposed 2nd Amendment", style: {dot: {color: 'mediumseagreen'}},
+// newFeature_BOR.commit({subject: "Proposed 2nd Amendment", style: {dot: {color: '#8f9a5b'}},
 // onMouseOver(commit){
 //   showTooltip('left: 50px; top:600px', `<img src="img/a1.png" width='1000px' height='60px'>`)
 //   console.log(`test ${commit.subject}`)
@@ -213,7 +214,7 @@ const newFeature_BOR = gitgraph.branch({name:"Bill of Rights", style: {color: 'm
 // });
 
 
-newFeature_BOR.commit({subject: "1st Amendment", dotText:"I",style: {dot: {color: 'mediumseagreen'}, font: 'bold 12pt white'},
+newFeature_BOR.commit({subject: "1st Amendment", dotText:"I",style: {dot: {color: '#8f9a5b'}, font: 'bold 12pt white'},
 onMouseOver(commit){
   showTooltip('left: 90px; top:660px', `<img src="img/a1.png" width='1000px' height='60px'>`)
   console.log(`test ${commit.subject}`)
@@ -224,7 +225,7 @@ onMouseOut(commit){
 renderTooltip(commit){}
 });
 
-newFeature_BOR.commit({subject: "2nd Amendment",dotText:"II", style: {dot: {color: 'mediumseagreen'}},
+newFeature_BOR.commit({subject: "2nd Amendment",dotText:"II", style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip('left: 50px; top:680px', `<img src="img/a2.png" width='1000px' height='40px'>`)
   console.log(`test ${commit.subject}`)
@@ -235,7 +236,7 @@ onMouseOut(commit){
 renderTooltip(commit){},
 
 })
-  .commit({subject: "3rd Amendment",dotText:"III", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "3rd Amendment",dotText:"III", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:700px', `<img src="img/a3.png" width='1000px' height='60px'>`)
     console.log(`test ${commit.subject}`)
@@ -245,7 +246,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "4th Amendment",dotText:"IV", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "4th Amendment",dotText:"IV", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:800px;', `<img src="img/a4.png" width='1000px' height='40px'>`)
     console.log(`test ${commit.subject}`)
@@ -255,7 +256,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "5th Amendment",dotText:"V", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "5th Amendment",dotText:"V", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:900px;', `<img src="img/a5.png" width='1000px' height='90px'>`)
     console.log(`test ${commit.subject}`)
@@ -265,7 +266,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "6th Amendment",dotText:"VI", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "6th Amendment",dotText:"VI", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 90px; top:1130px;', `<img src="img/a6.png" width='1000px' height='90px'>`)
     console.log(`test ${commit.subject}`)
@@ -275,7 +276,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "7th Amendment",dotText:"VII", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "7th Amendment",dotText:"VII", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:1160px;', `<img src="img/a7.png" width='1000px' height='60px'>`)
     console.log(`test ${commit.subject}`)
@@ -285,7 +286,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "8th Amendment",dotText:"VIII", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "8th Amendment",dotText:"VIII", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip("left: 50px; top:1180px", `<img src="img/a8.png" width='1000px' height='30px'>`)
     console.log(`test ${commit.subject}`)
@@ -295,7 +296,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "9th Amendment",dotText:"IX",  style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "9th Amendment",dotText:"IX",  style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:1270px', `<img src="img/a9.png" width='1000px' height='30px'>`)
     console.log(`test ${commit.subject}`)
@@ -305,7 +306,7 @@ renderTooltip(commit){},
   },
   renderTooltip(commit){}
   })
-  .commit({subject: "10th Amendment",dotText:"X", style: {dot: {color: 'mediumseagreen'}},
+  .commit({subject: "10th Amendment",dotText:"X", style: {dot: {color: '#8f9a5b'}},
   onMouseOver(commit){
     showTooltip('left: 50px; top:1300px', `<img src="img/a10.png" width='1000px' height='50px'>`)
     console.log(`test ${commit.subject}`)
@@ -316,9 +317,9 @@ renderTooltip(commit){},
   renderTooltip(commit){}
   })
 // Merge `newFeature` into `master`
-master.merge({branch: newFeature_BOR, commitOptions: {subject:"Amendment passed on September 25, 1789", style: {dot: {color: 'royalblue'}}}});
-const newFeature_11 = gitgraph.branch({name:"11th Amendment", style: {color: 'mediumseagreen'}});
-newFeature_11.commit({subject: "11th Amendment",dotText:"XI", style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_BOR, commitOptions: {subject:"Amendment passed on September 25, 1789", style: {dot: {color: '#d4c491'}}}});
+const newFeature_11 = gitgraph.branch({name:"11th Amendment", style: {color: '#8f9a5b'}});
+newFeature_11.commit({subject: "11th Amendment",dotText:"XI", style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 250px; top:1400px;`, `<img src="img/a11.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -329,9 +330,9 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_11, commitOptions: {subject:"Amendment passed on February 7, 1795", style: {dot: {color: 'royalblue'}}}})
-const newFeature_12 = gitgraph.branch({name:"12th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_12.commit({subject: "12th Amendment",dotText:"XII",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_11, commitOptions: {subject:"Amendment passed on February 7, 1795", style: {dot: {color: '#d4c491'}}}})
+const newFeature_12 = gitgraph.branch({name:"12th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_12.commit({subject: "12th Amendment",dotText:"XII",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 350px; top: 1450px;`, `<img src="img/a12.jpg" width='400px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -342,9 +343,9 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_12, commitOptions: {subject:"Amendment passed on June 15, 1804", style: {dot: {color: 'royalblue'}}}})
-const newFeature_13 = gitgraph.branch({name:"13th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_13.commit({subject: "13th Amendment",dotText:"XIII",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_12, commitOptions: {subject:"Amendment passed on June 15, 1804", style: {dot: {color: '#d4c491'}}}})
+const newFeature_13 = gitgraph.branch({name:"13th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_13.commit({subject: "13th Amendment",dotText:"XIII",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 400px; top:1450px;`, `<img src="img/a13.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -355,8 +356,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P13 = gitgraph.branch({name:"Proposed 13th Amendment", style: {color: 'tomato'}});
-newFeature_P13.commit({subject: "Proposed 13th Amendment",style: {dot: {color: 'tomato'}},
+const newFeature_P13 = gitgraph.branch({name:"Proposed 13th Amendment", style: {color: '#79a7a4'}});
+newFeature_P13.commit({subject: "Proposed 13th Amendment",style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed:</i> Titles of Nobility Amendment</h3><p>If any citizen of the United States shall accept, claim, receive or retain, any title of nobility or honour, or shall, without the consent of Congress, accept and retain any present, pension, office or emolument of any kind whatever, from any emperor, king, prince or foreign power, such person shall cease to be a citizen of the United States, and shall be incapable of holding any office of trust or profit under them, or either of them.</p>')
   console.log(`test ${commit.subject}`)
@@ -367,9 +368,9 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_13, commitOptions: {subject:"Amendment passed on December 6, 1865", style: {dot: {color: 'royalblue'}}}})
-const newFeature_14 = gitgraph.branch({name:"14th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_14.commit({subject: "14th Amendment",dotText:"XIV",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_13, commitOptions: {subject:"Amendment passed on December 6, 1865", style: {dot: {color: '#d4c491'}}}})
+const newFeature_14 = gitgraph.branch({name:"14th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_14.commit({subject: "14th Amendment",dotText:"XIV",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 440px; top:1500px;`, `<img src="img/a14.jpg" width='500px' height='750px'>`)
   console.log(`test ${commit.subject}`)
@@ -380,8 +381,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P14 = gitgraph.branch({name:"Proposed 14th Amendment", style: {color: 'tomato'}});
-newFeature_P14.commit({subject: "Proposed 14th Amendment",style: {dot: {color: 'tomato'}},
+const newFeature_P14 = gitgraph.branch({name:"Proposed 14th Amendment", style: {color: '#79a7a4'}});
+newFeature_P14.commit({subject: "Proposed 14th Amendment",style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 450px; top:2000px;`, '<h3><i>Proposed: </i> Corwin Amendment</h3><p>No amendment shall be made to the Constitution which will authorize or give to Congress the power to abolish or interfere, within any State, with the domestic institutions thereof, including that of persons held to labor or service by the laws of said State</p>')
   console.log(`test ${commit.subject}`)
@@ -391,9 +392,9 @@ onMouseOut(commit){
 },
 renderTooltip(commit){}
 })
-master.merge({branch: newFeature_14, commitOptions: {subject:"Amendment passed on July 9, 1868", style: {dot: {color: 'royalblue'}}}})
-const newFeature_15 = gitgraph.branch({name:"15th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_15.commit({subject: "15th Amendment",dotText:"XV",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_14, commitOptions: {subject:"Amendment passed on July 9, 1868", style: {dot: {color: '#d4c491'}}}})
+const newFeature_15 = gitgraph.branch({name:"15th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_15.commit({subject: "15th Amendment",dotText:"XV",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 490px; top:1540px;`, `<img src="img/a15.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -404,9 +405,9 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_15, commitOptions: {subject:"Amendment passed on February 3, 1870", style: {dot: {color: 'royalblue'}}}})
-const newFeature_16 = gitgraph.branch({name:"16th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_16.commit({subject: "16th Amendment",dotText:"XVI",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_15, commitOptions: {subject:"Amendment passed on February 3, 1870", style: {dot: {color: '#d4c491'}}}})
+const newFeature_16 = gitgraph.branch({name:"16th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_16.commit({subject: "16th Amendment",dotText:"XVI",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 400px; top:1670px;`, `<img src="img/a16.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
@@ -417,9 +418,9 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_16, commitOptions: {subject:"Amendment passed on February 3, 1913", style: {dot: {color: 'royalblue'}}}})
-const newFeature_17 = gitgraph.branch({name:"17th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_17.commit({subject: "17th Amendment",dotText:"XVII",style: {dot: {color: 'mediumseagreen'}},
+master.merge({branch: newFeature_16, commitOptions: {subject:"Amendment passed on February 3, 1913", style: {dot: {color: '#d4c491'}}}})
+const newFeature_17 = gitgraph.branch({name:"17th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_17.commit({subject: "17th Amendment",dotText:"XVII",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 400px; top:1900px;`, `<img src="img/a17.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
@@ -444,8 +445,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_18, "Amendment passed January 16, 1919 ")
-const newFeature_19 = gitgraph.branch({name:"19th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_19.commit({subject: "19th Amendment",dotText:"XIX",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_19 = gitgraph.branch({name:"19th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_19.commit({subject: "19th Amendment",dotText:"XIX",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 650px; top:2180px;`, `<img src="img/a19.jpg" width='500px' height='800px'>`)
   console.log(`test ${commit.subject}`)
@@ -456,8 +457,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-const newFeature_P20 = gitgraph.branch({name:"Proposed 20th Amendment", style: {color: 'tomato'}});
-newFeature_P20.commit({subject: "Proposed 20th Amendment",style: {dot: {color: 'tomato'}},
+const newFeature_P20 = gitgraph.branch({name:"Proposed 20th Amendment", style: {color: '#79a7a4'}});
+newFeature_P20.commit({subject: "Proposed 20th Amendment",style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 800px; top:2900px;`, `<h3><i>Proposed: </i> Child Labour Amendment</h3><p>Section 1. The Congress shall have power to limit, regulate, and prohibit the labor of persons under eighteen years of age.</p>
   
@@ -473,8 +474,8 @@ renderTooltip(commit){}
 
 master.merge(newFeature_19, "Amendment passed on August 18, 1920 ")
 
-const newFeature_20 = gitgraph.branch({name:"20th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_20.commit({subject: "20th Amendment",dotText:"XX",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_20 = gitgraph.branch({name:"20th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_20.commit({subject: "20th Amendment",dotText:"XX",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 700px; top:2400px;`, `<img src="img/a20.jpg" width='500px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -499,8 +500,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_21, "Amendment passed on December 5, 1933")
-const newFeature_22 = gitgraph.branch({name:"22nd Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_22.commit({subject: "22nd Amendment",dotText:"XXII",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_22 = gitgraph.branch({name:"22nd Amendment",  style: {color: '#8f9a5b'}});
+newFeature_22.commit({subject: "22nd Amendment",dotText:"XXII",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 790px; top:2790px;`, `<img src="img/a22.jpg" width='400px' height='700px'>`)
   console.log(`test ${commit.subject}`)
@@ -512,8 +513,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_22, "Amendment passed on February 27, 1951")
-const newFeature_23 = gitgraph.branch({name:"23th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_23.commit({subject: "23rd Amendment",dotText:"XXIII",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_23 = gitgraph.branch({name:"23th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_23.commit({subject: "23rd Amendment",dotText:"XXIII",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 850px; top:2820px;`, `<img src="img/a23.jpg" width='430px' height='800px'>`)
   console.log(`test ${commit.subject}`)
@@ -525,8 +526,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_23, "Amendment passed on March 29, 1961")
-const newFeature_24 = gitgraph.branch({name:"24th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_24.commit({subject: "24th Amendment",dotText:"XXIV",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_24 = gitgraph.branch({name:"24th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_24.commit({subject: "24th Amendment",dotText:"XXIV",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 950px; top:3200px;`, `<img src="img/a24.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
@@ -538,8 +539,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_24, "Amendment passed on January 23, 1964")
-const newFeature_25 = gitgraph.branch({name:"25th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_25.commit({subject: "25th Amendment",sdotText:"XXV",tyle: {dot: {color: 'mediumseagreen'}},
+const newFeature_25 = gitgraph.branch({name:"25th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_25.commit({subject: "25th Amendment",sdotText:"XXV",tyle: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 970px; top:3700px;`, `<img src="img/a25.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
@@ -551,8 +552,8 @@ renderTooltip(commit){}
 
 })
 master.merge(newFeature_25, "Amendment passed on February 10, 1967")
-const newFeature_26 = gitgraph.branch({name:"26th Amendment", style: {color: 'mediumseagreen'}});
-newFeature_26.commit({subject: "26th Amendment",dotText:"XXVI",style: {dot: {color: 'mediumseagreen'}},
+const newFeature_26 = gitgraph.branch({name:"26th Amendment", style: {color: '#8f9a5b'}});
+newFeature_26.commit({subject: "26th Amendment",dotText:"XXVI",style: {dot: {color: '#8f9a5b'}},
 onMouseOver(commit){
   showTooltip(`left: 870px; top:3400px;`, `<img src="img/a26_.jpg" width='400px' height='600px'>`)
   console.log(`test ${commit.subject}`)
@@ -564,8 +565,8 @@ renderTooltip(commit){}
 
 })
 
-const newFeature_P26 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'tomato'}});
-newFeature_P26.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'tomato'}},
+const newFeature_P26 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: '#79a7a4'}});
+newFeature_P26.commit({subject: "Proposed 26th Amendment",style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 20px; top:3900px;`, `<h3><i>Proposed: </i> Equal Rights Amendment</h3>
 
@@ -583,8 +584,8 @@ onMouseOut(commit){
 renderTooltip(commit){}
 })
 
-const newFeature_P28 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: 'tomato'}});
-newFeature_P28.commit({subject: "Proposed 26th Amendment",style: {dot: {color: 'tomato'}},
+const newFeature_P28 = gitgraph.branch({name:"Proposed 26th Amendment", style: {color: '#79a7a4'}});
+newFeature_P28.commit({subject: "Proposed 26th Amendment",style: {dot: {color: '#79a7a4'}},
 onMouseOver(commit){
   showTooltip(`left: 20px; top:3900px;`, `<h3><i>Proposed: </i> District of Columbia Voting Rights Amendment</h3>
 
@@ -601,9 +602,9 @@ onMouseOut(commit){
 },
 renderTooltip(commit){}
 })
-master.merge({branch: newFeature_26, commitOptions: {subject:"Amendment passed on July 1, 1971", style: {dot: {color: 'royalblue'}}}})
-const newFeature_27 = gitgraph.branch({name:"27th Amendment",  style: {color: 'mediumseagreen'}});
-newFeature_27.merge({branch: newFeature_P27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: 'royalblue'}}}})
+master.merge({branch: newFeature_26, commitOptions: {subject:"Amendment passed on July 1, 1971", style: {dot: {color: '#d4c491'}}}})
+const newFeature_27 = gitgraph.branch({name:"27th Amendment",  style: {color: '#8f9a5b'}});
+newFeature_27.merge({branch: newFeature_P27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: '#d4c491'}}}})
 newFeature_27.commit({subject: "27th Amendment",dotText:"XXVII",style: {dot: {color: 'gold'}},
 onMouseOver(commit){
   showTooltip(`left: 550px; top:4200px;`, `<img src="img/27_.jpg" width='400px' height='600px'>`)
@@ -615,4 +616,4 @@ onMouseOut(commit){
 renderTooltip(commit){}
 
 })
-master.merge({branch: newFeature_27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: 'royalblue'}}}})
+master.merge({branch: newFeature_27, commitOptions: {subject:"Amendment passed on May 5, 1992", style: {dot: {color: '#d4c491'}}}})
