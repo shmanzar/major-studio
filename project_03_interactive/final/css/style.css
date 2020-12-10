@@ -62,6 +62,7 @@ h2 {
 
 .right {
     /* width: 60%; */
+    max-width: 50vh;
     border-left: 1px dashed #ccc;
 
   }
@@ -77,7 +78,8 @@ h2 {
   grid-template-columns: 2fr 0.5fr;
   grid-template-areas: "text1 image1"
   "text2 image2"
-  "text3 image3";
+  "text3 image3"
+  "text4 image4";
     /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
   padding-bottom: 2em;
   align-items: center;
@@ -152,6 +154,29 @@ h2 {
 
 
 }
+
+#text4 {
+  grid-area: text4;
+  /* margin-right: 0.1em; */
+  color: #8e8a76;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  /* margin-bottom:0 ; */
+
+
+  
+
+
+}
+
+#image4 {
+  grid-area: image4;
+  margin: auto;
+  /* margin-bottom:0 ; */
+}
+
+
 .legend-colour-slot-add {
   fill: #8f9a5b;
 }
@@ -164,9 +189,13 @@ h2 {
   fill: #9e4343;
 }
 
+.legend-colour-slot-prp {
+  fill: #79a7a4
+  ;
+}
 
 .const-text {
-  font-size: 3px;
+  font-size: 7.5px;
   text-align: center;
   padding-left: 3em;
   color: #8e8a76;
