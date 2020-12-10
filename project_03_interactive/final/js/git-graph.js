@@ -155,7 +155,7 @@ const master = gitgraph.branch({name:"US Constitution", style: {color: '#19184a'
 master.commit(
   {subject: "Declaration of Independance", style: {dot:{color: '#19184a'}},
  onMouseOver(commit){
-    showTooltip(`left: 50px; top:300px;`, `<img src="img/NMAH-ET2016-04901.jpg" width='500px' height='800px'>`)
+    showTooltip(`left: 600px; top:10px;`, `<img src="img/NMAH-ET2016-04901.jpg" width='500px' height='800px'>`)
     // console.log(`test ${commit.subject}`)
 
     // renderTooltip(commit)
@@ -168,7 +168,7 @@ master.commit(
 master.commit(
   {subject: 'Preamble to Constitution and the Articles',style: {dot:{color: '#19184a'}},
   onMouseOver(commit){
-    showTooltip(`left: 50px; top:300px;`, `<img src="img/constitution-page1.jpg" width='300px' height='400px'>`)
+    showTooltip(`left: 600px; top: 10px;`, `<img src="img/constitution-page1.jpg" width='300px' height='400px'>`)
     console.log(`test ${commit.subject}`)
     document.querySelector(".const-text-pre").classList.toggle("const-text-green");
 
@@ -183,7 +183,7 @@ master.commit(
 const newFeature_PBOR = gitgraph.branch({name:"Proposed Bill of Rights", style: {color: '#cebd50'}});
 newFeature_PBOR.commit({subject: "Proposed 1st Amendment", style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip(`left: 50px; top:600px;`, `<img src="img/proposed_1.png" width='1000px' height='100px'>`)
+  showTooltip(`left: 400px; top: 100px;`, `<img src="img/proposed_1.png" width='1000px' height='100px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -194,7 +194,7 @@ renderTooltip(commit){}
 const newFeature_P27 = gitgraph.branch({name: "Proposed 2nd Amendment", style: {color: '#cebd50'}});
 newFeature_P27.commit({subject: "Proposed 2nd Amendment", style: {dot: {color: '#cebd50'}},
 onMouseOver(commit){
-  showTooltip('left: 50px; top:600px', `<img src="img/proposed_2.png" width='1000px' height='60px'>`)
+  showTooltip('left: 400px; top: 200px;', `<img src="img/proposed_2.png" width='1000px' height='50px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -220,7 +220,7 @@ const newFeature_BOR = gitgraph.branch({name:"Bill of Rights", style: {color: '#
 
 newFeature_BOR.commit({subject: "1st Amendment", style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip('left: 90px; top:660px', `<img src="img/a1.png" width='1000px' height='60px'>`)
+  showTooltip('left: 400px; top: 150px;', `<img src="img/a1.png" width='1000px' height='60px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -231,7 +231,7 @@ renderTooltip(commit){}
 
 newFeature_BOR.commit({subject: "2nd Amendment", style: {dot: {color: '#9cc28b'}},
 onMouseOver(commit){
-  showTooltip('left: 50px; top:680px', `<img src="img/a2.png" width='1000px' height='40px'>`)
+  showTooltip('left: 400px; top: 180px', `<img src="img/a2.png" width='1000px' height='20px'>`)
   console.log(`test ${commit.subject}`)
 },
 onMouseOut(commit){
@@ -242,7 +242,7 @@ renderTooltip(commit){},
 })
   .commit({subject: "3rd Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:700px', `<img src="img/a3.png" width='1000px' height='60px'>`)
+    showTooltip('left: 400px; top: 180px', `<img src="img/a3.png" width='1000px' height='40px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -252,7 +252,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "4th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:800px;', `<img src="img/a4.png" width='1000px' height='40px'>`)
+    showTooltip('left: 400px; top: 220px', `<img src="img/a4.png" width='1000px' height='50px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -262,7 +262,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "5th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 50px; top:900px;', `<img src="img/a5.png" width='1000px' height='90px'>`)
+    showTooltip('left: 400px; top: 250px;', `<img src="img/a5.png" width='1000px' height='80px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
@@ -272,7 +272,7 @@ renderTooltip(commit){},
   })
   .commit({subject: "6th Amendment", style: {dot: {color: '#9cc28b'}},
   onMouseOver(commit){
-    showTooltip('left: 90px; top:1130px;', `<img src="img/a6.png" width='1000px' height='90px'>`)
+    showTooltip('left: 400px; top: 280px;', `<img src="img/a6.png" width='1000px' height='90px'>`)
     console.log(`test ${commit.subject}`)
   },
   onMouseOut(commit){
