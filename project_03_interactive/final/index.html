@@ -34,17 +34,21 @@
           The first <b>ten</b> were developed and ratified as together - a single branch. While all the rest were pushed into the main as individual commits.
           <b>Six amendments</b> were proposed*but never ratified, with two of them now past the date by which they could be ratified - representing <b>four active ‘development branches’</b> and <b>two dormant branches</b>.</p>
         </div>
-        <div><h2 class="how-to-read">How to read?</h2></div>
+        <div><h2 class="how-to-read">How to read it?</h2></div>
         
         <div id="legendBox">
           <g id="legend-colour-slots">
-            <svg width="36" height="9.03">
+            <p id="text1">Additions</p>
+            <svg id ='image1' width="36" height="9.03">
               <rect class="legend-colour-slot-add" width="36" height="9.03" rx="4.28" />
             </svg>
-            <svg width="36" height="9.03">
+            <p id="text2">Deletions</p>
+            <svg id ='image2' width="36" height="9.03">
               <rect class="legend-colour-slot-del" width="36" height="9.03" rx="4.28" />
             </svg>
-            <svg width="36" height="9.03">
+            <p id="text3">Main</p>
+
+            <svg id ='image3' width="36" height="9.03">
               <rect class="legend-colour-slot-mod" width="36" height="9.03" rx="4.28" /></svg></g>
             </div>
           </div>
@@ -278,12 +282,12 @@
           </div>
           
           <div class="column right"> 
-            <button id = 'test'>Test the button</button>
+            <!-- <button id = 'test'>Test the button</button> -->
             <div id="tooltip" display="none" style="position: absolute; display: none;"></div>
             <div id="gitgraph"></div>
           </div>
     </div> 
-              <!-- <script src="/js/git-graph.js"></script> -->
+              <script src="/js/git-graph.js"></script>
 
     <script type="text/javascript" src="js/app.js"></script>
   </body>

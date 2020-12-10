@@ -109,7 +109,7 @@ options = {
     mode: GitgraphJS.Mode.Compact,
     // generateCommitHash: GitgraphJS.createFixedHashGenerator(),
         template: GitgraphJS.templateExtend(GitgraphJS.TemplateName.Metro, {
-          branch: { label: { display: false } }, 
+          branch: { label: { display: false }, lineWidth: "7px" }, 
           commit: {
             message: {
               // author: " ",

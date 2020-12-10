@@ -17,7 +17,8 @@ h2 {
   font-family: "Merriweather";
   font-size: large;
   text-decoration: underline ;
-  margin-top: 5em;
+  margin-top: 2em;
+  /* padding-bottom: 2em; */
 }
 
 .explain-box {
@@ -48,7 +49,7 @@ h2 {
 
 .left {
     /* width: 30%;     */
-    border-left: 1px dashed #ccc;
+    /* border-left: 1px dashed #ccc; */
 
 }
 
@@ -70,12 +71,84 @@ h2 {
 }
 #legend-colour-slots {
   display: grid;
-  grid-gap: 10px;
+  /* grid-gap: 10px; */
   /* align-items: center;  */
   justify-items: right; 
+  grid-template-columns: 2fr 0.5fr;
+  grid-template-areas: "text1 image1"
+  "text2 image2"
+  "text3 image3";
     /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  padding-bottom: 2em;
+  align-items: center;
+  /* justify-items: center; */
 
 
+
+}
+
+#text1 {
+  grid-area: text1;
+  /* margin-right: 0; */
+  /* margin-bottom:0 ; */
+  /* margin-left:  */
+  color: #8e8a76;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#image1 {
+  grid-area: image1;
+  margin: auto;
+  /* margin-bottom:0 ; */
+
+
+  
+}
+
+#text2 {
+  grid-area: text2;
+  /* margin-right: 1em; */
+  color: #8e8a76;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  /* margin-bottom:0 ; */
+
+
+
+
+}
+
+#image2 {
+  grid-area: image2;
+  margin: auto;
+  /* margin-bottom:0 ; */
+  
+
+
+}
+
+#text3 {
+  grid-area: text3;
+  /* margin-right: 0.1em; */
+  color: #8e8a76;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  /* margin-bottom:0 ; */
+
+
+  
+
+
+}
+
+#image3 {
+  grid-area: image3;
+  margin: auto;
+  /* margin-bottom:0 ; */
 
 
 }
