@@ -62,7 +62,7 @@ h2 {
 
 .right {
     /* width: 60%; */
-    max-width: 50vh;
+    /* max-width: 50vh; */
     border-left: 1px dashed #ccc;
 
   }
@@ -195,7 +195,7 @@ h2 {
 }
 
 .const-text {
-  font-size: 7.5px;
+  font-size: 4.5px;
   text-align: center;
   padding-left: 3em;
   color: #8e8a76;

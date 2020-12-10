@@ -110,11 +110,10 @@ options = {
     // generateCommitHash: GitgraphJS.createFixedHashGenerator(),
         template: GitgraphJS.templateExtend(GitgraphJS.TemplateName.Metro, {
           branch: { 
-            label: { display: false }, lineWidth: "3px", spacingX:-1, spacingY:-1}, 
+            label: { display: false }, lineWidth: "5px", spacing: 15}, 
           commit: {
-            dot: {size: "7px"},
-            // spacingX:"2px",
-            // widthExtension: -33,
+            dot: {size: "8px"},
+            spacing: 30,
             message: {
               // author: " ",
               displayHash: false,
