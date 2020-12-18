@@ -24,7 +24,6 @@ h2 {
 .explain-box {
   color: #8e8a76;
   font-family: "Fira Sans";
-  /* font-family: "Neuton"; */
   font-size: 10px;
   font-weight: 400;
   text-align: justify;
@@ -88,7 +87,7 @@ h2 {
   /* margin-left:  */
   color: #8e8a76;
   font-family: "Fira Sans";
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
 }
 
@@ -103,7 +102,7 @@ h2 {
   /* margin-right: 1em; */
   color: #8e8a76;
   font-family: "Fira Sans";
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   /* margin-bottom:0 ; */
 }
@@ -119,7 +118,7 @@ h2 {
   /* margin-right: 0.1em; */
   color: #8e8a76;
   font-family: "Fira Sans";
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   /* margin-bottom:0 ; */
 }
@@ -135,7 +134,7 @@ h2 {
   /* margin-right: 0.1em; */
   color: #8e8a76;
   font-family: "Fira Sans";
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   /* margin-bottom:0 ; */
 }
