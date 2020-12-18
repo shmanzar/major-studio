@@ -16,7 +16,7 @@ h2 {
 .how-to-read {
   font-family: "Merriweather";
   font-size: large;
-  text-decoration: underline ;
+  text-decoration: underline;
   margin-top: 2em;
   /* padding-bottom: 2em; */
 }
@@ -25,7 +25,7 @@ h2 {
   color: #8e8a76;
   font-family: "Fira Sans";
   /* font-family: "Neuton"; */
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   text-align: justify;
 }
@@ -45,27 +45,21 @@ h2 {
   /* justify-items: right;  */
 }
 
-
-
 .left {
-    /* width: 30%;     */
-    /* border-left: 1px dashed #ccc; */
-
+  /* width: 30%;     */
+  /* border-left: 1px dashed #ccc; */
 }
-
 
 .middle {
   /* width: 10%; */
   border-left: 1px dashed #ccc;
-
 }
 
 .right {
-    /* width: 60%; */
-    /* max-width: 50vh; */
-    border-left: 1px dashed #ccc;
-
-  }
+  /* width: 60%; */
+  /* max-width: 50vh; */
+  border-left: 1px dashed #ccc;
+}
 
 #title {
   margin-left: 1%;
@@ -74,19 +68,17 @@ h2 {
   display: grid;
   /* grid-gap: 10px; */
   /* align-items: center;  */
-  justify-items: right; 
+  justify-items: right;
   grid-template-columns: 2fr 0.5fr;
-  grid-template-areas: "text1 image1"
-  "text2 image2"
-  "text3 image3"
-  "text4 image4";
-    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  grid-template-areas:
+    "text1 image1"
+    "text2 image2"
+    "text3 image3"
+    "text4 image4";
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
   padding-bottom: 2em;
   align-items: center;
   /* justify-items: center; */
-
-
-
 }
 
 #text1 {
@@ -104,9 +96,6 @@ h2 {
   grid-area: image1;
   margin: auto;
   /* margin-bottom:0 ; */
-
-
-  
 }
 
 #text2 {
@@ -117,19 +106,12 @@ h2 {
   font-size: 12px;
   font-weight: 400;
   /* margin-bottom:0 ; */
-
-
-
-
 }
 
 #image2 {
   grid-area: image2;
   margin: auto;
   /* margin-bottom:0 ; */
-  
-
-
 }
 
 #text3 {
@@ -140,19 +122,12 @@ h2 {
   font-size: 12px;
   font-weight: 400;
   /* margin-bottom:0 ; */
-
-
-  
-
-
 }
 
 #image3 {
   grid-area: image3;
   margin: auto;
   /* margin-bottom:0 ; */
-
-
 }
 
 #text4 {
@@ -163,11 +138,6 @@ h2 {
   font-size: 12px;
   font-weight: 400;
   /* margin-bottom:0 ; */
-
-
-  
-
-
 }
 
 #image4 {
@@ -175,7 +145,6 @@ h2 {
   margin: auto;
   /* margin-bottom:0 ; */
 }
-
 
 .legend-colour-slot-add {
   fill: #9cc28b;
@@ -191,7 +160,6 @@ h2 {
 
 .legend-colour-slot-prp {
   fill: #cebd50;
-  ;
 }
 
 .const-text {
@@ -199,7 +167,6 @@ h2 {
   text-align: center;
   padding-left: 3em;
   color: #8e8a76;
-
 }
 
 .const-text-green {
