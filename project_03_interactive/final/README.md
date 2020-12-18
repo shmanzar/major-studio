@@ -18,7 +18,7 @@ Git's version control allows tracking changes in a text document as it evolves; 
 
 The term branches reveals how Git visualises the changing text: in **tree graphs** and more specifically a directed acyclic graph . Each node represents a commit, version in time of the text - with major changes being developed in a separate branch, and then pushed back into the main branch as a a new commit.
 
-![](https://raw.githubusercontent.com/shmanzar/major-studio/master/project_03_interactive/final/screens/images/state01png)
+![](https://raw.githubusercontent.com/shmanzar/major-studio/master/project_03_interactive/final/screens/images/state01.png)
 
 To frame it into Git terms, the US Constitution has had 27 ‘commits’. 26 have been additions and one deletion. The first ten were developed and ratified as together - a single branch. While all the rest were pushed into the main as individual commits. Six amendments were proposed but never ratified, with two of them now past the date by which they could be ratified - representing four active ‘development branches’ and two dormant branches.
 
